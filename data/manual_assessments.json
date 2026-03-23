@@ -1,0 +1,2940 @@
+{
+  "176379": {
+    "title": "Genetic analysis of mammary tumor induction and expression of mammary tumor virus antigen in hormone-treated ovariectomized GR mice.",
+    "summary": "The abstract is a genetic study of early mammary tumors in hormone-treated GR mice. Here \"EMT\" means early mammary tumors, and the paper discusses tumor induction and resistance factors rather than any change in ITK.",
+    "rows": [
+      {
+        "subject": "R factor",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract is about mammary tumor induction and a resistance factor in mice, not R factor increasing ITK."
+      }
+    ]
+  },
+  "1483950": {
+    "title": "Solid-phase anti-CD3 antibody activation and cryopreservation of human tumor-infiltrating lymphocytes derived from epithelial ovarian cancer.",
+    "summary": "The abstract is about anti-CD3 activation and cryopreservation of tumor-infiltrating lymphocytes. It does not make a TLR1 claim.",
+    "rows": [
+      {
+        "subject": "Visilizumab",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "toll like receptor 1",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "There is no discussion of visilizumab or TLR1 in the abstract."
+      }
+    ]
+  },
+  "1684173": {
+    "title": "Molecular analysis of the MHC class II region in DR4, DR7, and DR9 haplotypes.",
+    "summary": "The abstract is about MHC class II DR4/DR7/DR9 haplotypes and DNA content, not about TRAIL receptor DR4. It does not support the Biolink DR4 target here.",
+    "rows": [
+      {
+        "subject": "Deoxyribonucleic acid",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This is a genetics paper about HLA/MHC haplotypes, not DR4 receptor regulation by DNA."
+      }
+    ]
+  },
+  "1705001": {
+    "title": "Induction of deoxycytidine kinase by 5-azacytidine in an HL-60 cell line resistant to arabinosylcytosine.",
+    "summary": "The abstract says 5-azacytidine increased total deoxycytidine kinase activity 12-fold. This supports an increase-of-activity claim.",
+    "rows": [
+      {
+        "subject": "Azacitidine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Deoxycytidine kinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The paper explicitly reports a 12-fold increase in dCK activity after 5-azacytidine exposure."
+      }
+    ]
+  },
+  "1955008": {
+    "title": "Effects of indomethacin and PEEP on oleic acid induced pulmonary oedema in rabbits.",
+    "summary": "The abstract is about pulmonary oedema physiology in rabbits. It does not make any DR4 claim.",
+    "rows": [
+      {
+        "subject": "Oleic acid",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Neither DR4 nor TRAIL receptors are discussed in the abstract."
+      }
+    ]
+  },
+  "3498493": {
+    "title": "HLA-DR4 and Gm 1;21 haplotypes are associated with pseudolupus induced by venopyronum dragées.",
+    "summary": "The abstract is about HLA-DR4 genotype frequency in drug-induced pseudolupus, not about TRAIL receptor DR4. It does not support the Biolink DR4 target here.",
+    "rows": [
+      {
+        "subject": "Venopyronum Dragee",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This is an HLA-DR4 association paper, not a paper about TRAIL receptor DR4 expression or activity."
+      }
+    ]
+  },
+  "7541096": {
+    "title": "De novo induced mutations in the deoxycytidine kinase (dck) gene in rat leukemic clonal cell lines confer resistance to cytarabine (AraC) and 5-aza-2'-deoxycytidine (DAC).",
+    "summary": "The abstract says long-term AraC or DAC exposure selected resistant cell lines that were dCK deficient. It does not support an increase claim for either drug.",
+    "rows": [
+      {
+        "subject": "Cytarabine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Deoxycytidine kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The resistant cell lines became dCK deficient; the abstract does not support cytarabine increasing dCK."
+      },
+      {
+        "subject": "Decitabine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Deoxycytidine kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract describes dCK deficiency emerging in DAC-resistant lines, not dCK induction."
+      }
+    ]
+  },
+  "7896799": {
+    "title": "Directed mutagenesis of deoxyguanosine site at arginine 79 up-regulates turnover on deoxyadenosine kinase subunit of heterodimeric enzyme from Lactobacillus acidophilus R26.",
+    "summary": "The abstract is about dGK/dAK mutagenesis in Lactobacillus, not DGKβ. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "alar",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This paper is about deoxyguanosine/deoxyadenosine kinases, not diacylglycerol kinase beta."
+      }
+    ]
+  },
+  "8917466": {
+    "title": "Differential requirement of the yeast sugar kinases for sugar sensing in establishing the catabolite-repressed state.",
+    "summary": "The abstract says HXK1 is repressed upon addition of glucose or fructose, with fructose repression being transient. This supports a decrease-of-amount claim for HXK1 on fructose.",
+    "rows": [
+      {
+        "subject": "Fructose",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "hexokinase 1",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says HXK1 is repressed upon addition of fructose."
+      }
+    ]
+  },
+  "9023215": {
+    "title": "Molecular characterization of glucokinase from Escherichia coli K-12.",
+    "summary": "The abstract says growth on glucose reduced glk expression by about 50%. This supports a decrease-of-amount claim for glucokinase.",
+    "rows": [
+      {
+        "subject": "Glucose",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "glucokinase",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract explicitly states that growth on glucose reduced glk expression by about 50%."
+      }
+    ]
+  },
+  "9131770": {
+    "title": "Effect of chronic administration of NMDA antagonists on synaptic development.",
+    "summary": "The abstract is about NMDA receptor antagonism and synaptic development, not CDKL2. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "N-Methylaspartate [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "cyclin dependent kinase like 2",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Neither CDKL2 nor any related kinase is the target studied here."
+      }
+    ]
+  },
+  "9393732": {
+    "title": "Contribution of glucose kinase to glucose repression of xylose utilization in Bacillus megaterium.",
+    "summary": "The abstract says glk transcription was constitutive and discusses glucose repression of a separate xylA-lacZ reporter. It does not support glucose decreasing glucokinase itself.",
+    "rows": [
+      {
+        "subject": "Glucose",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "glucokinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract does not report glucose decreasing glk expression; it says glk transcription was constitutive."
+      }
+    ]
+  },
+  "9859216": {
+    "title": "Expression of a wool intermediate filament keratin transgene in sheep fibre alters structure.",
+    "summary": "The abstract is about wool keratin and KAP transcripts in sheep fibres. It does not make a CDKN3 claim.",
+    "rows": [
+      {
+        "subject": "Messenger RNA",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "cyclin dependent kinase inhibitor 3",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The reduced mRNAs discussed are keratin/KAP transcripts, not CDKN3."
+      }
+    ]
+  },
+  "10087161": {
+    "title": "Inhibition of p56(lck) tyrosine kinase by isothiazolones.",
+    "summary": "The abstract says an isothiazolone inhibits p56(lck), not CDKL2. It does not support the asserted target or subject grounding.",
+    "rows": [
+      {
+        "subject": "Atom",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "cyclin dependent kinase like 2",
+        "dataset_call": "true",
+        "assessment": "disagree",
+        "reason": "The inhibited kinase is p56(lck), and the listed subject does not match the isothiazolone inhibitor."
+      }
+    ]
+  },
+  "10362499": {
+    "title": "Calcium-induced p56(Lck) phosphorylation in human T lymphocytes via calmodulin dependent kinase.",
+    "summary": "The abstract says ionomycin induces phosphorylation of p56(Lck), not CDKL2. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Ionomycin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "cyclin dependent kinase like 2",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The kinase being modulated is p56(Lck), not CDKL2."
+      }
+    ]
+  },
+  "10385895": {
+    "title": "Bioindicator and exposure data for a population based study of manganese.",
+    "summary": "The abstract is about environmental manganese exposure, not DYRK1A. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Manganese",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This paper is unrelated to DYRK1A."
+      }
+    ]
+  },
+  "10531348": {
+    "title": "Role of human Cds1 (Chk2) kinase in DNA damage checkpoint and its regulation by p53.",
+    "summary": "The abstract says SV40 T antigen and viral oncoproteins induce hCds1 mRNA, not decrease it. This does not support the stated decrease predicate.",
+    "rows": [
+      {
+        "subject": "Antigens, Polyomavirus Transforming",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "checkpoint kinase 2",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract says SV40 T antigen causes marked induction of hCds1 mRNA, which is the opposite direction from the asserted decrease."
+      }
+    ]
+  },
+  "10650151": {
+    "title": "Mechanism of damnacanthal-induced [Ca(2+)](i) elevation in human dermal fibroblasts.",
+    "summary": "The abstract mentions damnacanthal as an inhibitor of p56(lck), not CDKL2. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Damnacanthal",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "cyclin dependent kinase like 2",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Any inhibition in this abstract concerns p56(lck), not CDKL2."
+      }
+    ]
+  },
+  "10674004": {
+    "title": "Treatment of normal and malignant cells with nucleoside analogues and etoposide enhances deoxycytidine kinase activity.",
+    "summary": "The abstract says cladribine treatment causes a 2-5-fold increase in deoxycytidine kinase activity. This supports an increase-of-activity claim.",
+    "rows": [
+      {
+        "subject": "Cladribine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Deoxycytidine kinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says CdA treatment caused a 2-5-fold increase in dCK activity."
+      }
+    ]
+  },
+  "10680171": {
+    "title": "Characterization of isoforms of hexose kinases in rice embryo.",
+    "summary": "The abstract says rice HK1 was inhibited by mannoheptulose and glucosamine. These support decrease-of-activity claims for hexokinase 1.",
+    "rows": [
+      {
+        "subject": "Mannoheptulose",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "hexokinase 1",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says HK1 was inhibited by mannoheptulose."
+      },
+      {
+        "subject": "Glucosamine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "hexokinase 1",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says HK1 was inhibited by glucosamine."
+      }
+    ]
+  },
+  "10744701": {
+    "title": "Tyrosine kinase activation in response to fungal spores is primarily dependent on endogenous reactive oxygen production in macrophages.",
+    "summary": "The abstract describes activation of Hck, Syk, Btk, Yes, Lck, and Fyn in macrophages, not CDKL2. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Reactive Oxygen Species [Chemical/Ingredient]",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "cyclin dependent kinase like 2",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The activated kinases are immune tyrosine kinases such as Lck and Syk, not CDKL2."
+      }
+    ]
+  },
+  "10788436": {
+    "title": "Protein tyrosine kinase p56lck is required for ceramide-induced but not tumor necrosis factor-induced activation of NF-kappa B, AP-1, JNK, and apoptosis.",
+    "summary": "The abstract says ceramide activates p56(lck), not CDKL2. This does not support the asserted target grounding.",
+    "rows": [
+      {
+        "subject": "Ceramide",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "cyclin dependent kinase like 2",
+        "dataset_call": "true",
+        "assessment": "disagree",
+        "reason": "The activated kinase is p56(lck), not CDKL2."
+      }
+    ]
+  },
+  "11151026": {
+    "title": "Linear competitive inhibition of human tissue kallikrein by 4-aminobenzamidine and benzamidine and linear mixed inhibition by 4-nitroaniline and aniline.",
+    "summary": "The abstract is about inhibition of human tissue kallikrein (hK1), not hexokinase 1. It does not support the hexokinase target grounding.",
+    "rows": [
+      {
+        "subject": "benzamidine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "hexokinase 1",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This paper is about tissue kallikrein hK1, not hexokinase 1."
+      },
+      {
+        "subject": "4-aminobenzamidine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "hexokinase 1",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This paper is about tissue kallikrein hK1, not hexokinase 1."
+      }
+    ]
+  },
+  "11163333": {
+    "title": "Activation of deoxycytidine kinase by inhibition of DNA synthesis in human lymphocytes.",
+    "summary": "The abstract says aphidicolin stimulated dCK activity in several human cell types. This supports an increase-of-activity claim.",
+    "rows": [
+      {
+        "subject": "Aphidicolin [Chemical/Ingredient]",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Deoxycytidine kinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract directly says aphidicolin stimulated dCK activity."
+      }
+    ]
+  },
+  "11390408": {
+    "title": "The hCds1 (Chk2)-FHA domain is essential for a chain of phosphorylation events on hCds1 that is induced by ionizing radiation.",
+    "summary": "The abstract says specific threonine residues on Chk2 are phosphorylated and required for activation, but it does not present threonine as an external inducer. It does not support the subject grounding.",
+    "rows": [
+      {
+        "subject": "Threonine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "checkpoint kinase 2",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This is a residue-level phosphorylation paper, not a claim that threonine as a chemical increases Chk2."
+      }
+    ]
+  },
+  "11672423": {
+    "title": "Identification of the autophosphorylation sites and characterization of their effects in the protein kinase DYRK1A.",
+    "summary": "The abstract says substitution of Tyr321 by phenylalanine reduced DYRK1A activity, but this is a residue-substitution experiment rather than a chemical-entity relation. It does not support the subject grounding.",
+    "rows": [
+      {
+        "subject": "Phenylalanine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This is a Y321F mutation study, not a claim that phenylalanine as a chemical decreases DYRK1A."
+      }
+    ]
+  },
+  "11710991": {
+    "title": "Differential regulation of T cell receptor-mediated Th1 cell IFN-gamma production and proliferation by divergent cAMP-mediated redox pathways.",
+    "summary": "The abstract is about oxidized/inactivated p56(lck) epitopes under forskolin treatment, not CDKL2. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Epitope",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "cyclin dependent kinase like 2",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The protein discussed is p56(lck); the “epitope” subject is not a causal agent acting on CDKL2."
+      }
+    ]
+  },
+  "11772267": {
+    "title": "Concepts in the use of TRAIL/Apo2L: an emerging biotherapy for myeloma and other neoplasias.",
+    "summary": "The abstract is a review of TRAIL in myeloma. It mentions doxorubicin upregulating DR5 and PS-341 enhancing TRAIL activity, but it does not say bortezomib increases DR4.",
+    "rows": [
+      {
+        "subject": "bortezomib",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract does not attribute DR4 upregulation to PS-341/bortezomib; it only says the proteasome inhibitor enhanced TRAIL activity."
+      }
+    ]
+  },
+  "11802207": {
+    "title": "TRAIL, FasL and a blocking anti-DR5 antibody augment paclitaxel-induced apoptosis in human non-small-cell lung cancer.",
+    "summary": "The abstract says paclitaxel did not significantly modify DR4 or DR5 levels. This does not support an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Paclitaxel",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says paclitaxel did not significantly modify DR4 or DR5 levels."
+      }
+    ]
+  },
+  "12082627": {
+    "title": "Evidence that the human death receptor 4 is regulated by activator protein 1.",
+    "summary": "The abstract is mainly about AP-1 regulation of DR4, but it explicitly states that several chemotherapeutic agents were reported to induce DR4 expression. That supports a broad antineoplastics-to-DR4 increase statement, though the support is background-level rather than the main experiment.",
+    "rows": [
+      {
+        "subject": "Antineoplastics",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly states that several chemotherapeutic agents were reported to induce DR4 expression."
+      }
+    ]
+  },
+  "12374293": {
+    "title": "Knock-out of Arabidopsis metal transporter gene IRT1 results in iron deficiency accompanied by cell differentiation defects.",
+    "summary": "The abstract is about plant zinc and iron transporter genes such as IRT1/IRT2, not DAPK3. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Zinc",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "death associated protein kinase 3",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This paper is about IRT/ZIP transporters, not DAPK3."
+      }
+    ]
+  },
+  "12511421": {
+    "title": "Rosmarinic acid inhibits Ca2+-dependent pathways of T-cell antigen receptor-mediated signaling by inhibiting the PLC-gamma 1 and Itk activity.",
+    "summary": "The abstract says rosmarinic acid inhibits Itk activity and thereby blocks Ca2+-dependent TCR signaling, NF-AT activation, PLC-gamma1 phosphorylation, and downstream IL-2 expression.",
+    "rows": [
+      {
+        "subject": "rosmarinic acid",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The direction is opposite: the abstract explicitly describes rosmarinic acid as inhibiting Itk activity, not increasing it."
+      }
+    ]
+  },
+  "12584736": {
+    "title": "Enhancement of TRAIL/Apo2L-mediated apoptosis by adriamycin through inducing DR4 and DR5 in renal cell carcinoma cells.",
+    "summary": "The abstract says adriamycin increases DR4 and DR5 in renal cell carcinoma cells. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Adriamycin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The paper explicitly states that ADR increased DR4 and DR5 in RCC cells."
+      }
+    ]
+  },
+  "12782325": {
+    "title": "Pretreatment of indole-3-carbinol augments TRAIL-induced apoptosis in a prostate cancer cell line, LNCaP.",
+    "summary": "The abstract says indole-3-carbinol induced DR4 and DR5 expression at transcriptional and translational levels. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Indole-3-carbinol",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract directly says I3C induced DR4 and DR5 expression."
+      }
+    ]
+  },
+  "12798323": {
+    "title": "Molecular design, synthesis, and structure-Activity relationships leading to the potent and selective p56(lck) inhibitor BMS-243117.",
+    "summary": "The abstract is about p56(lck) inhibitors, not CDKL2. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Absolute Genomic Position",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "cyclin dependent kinase like 2",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The inhibited target is p56(lck), and the listed subject does not correspond to the active inhibitor."
+      }
+    ]
+  },
+  "12852972": {
+    "title": "Discovery of 2-amino-heteroaryl-benzothiazole-6-anilides as potent p56(lck) inhibitors.",
+    "summary": "The abstract is about p56(lck) inhibitors, not CDKL2. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Absolute Genomic Position",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "cyclin dependent kinase like 2",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The inhibited target is p56(lck), and the listed subject does not correspond to the active inhibitor."
+      }
+    ]
+  },
+  "12874299": {
+    "title": "Simultaneous blocking of human Toll-like receptors 2 and 4 suppresses myeloid dendritic cell activation induced by Mycobacterium bovis bacillus Calmette-Guérin peptidoglycan.",
+    "summary": "The abstract says BCG peptidoglycan activates TLR2 and TLR4 in this system. It does not support a TLR1 increase claim.",
+    "rows": [
+      {
+        "subject": "Peptidoglycan [Chemical/Ingredient]",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "toll like receptor 1",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract repeatedly attributes the effect to TLR2 and TLR4, not TLR1."
+      }
+    ]
+  },
+  "12884292": {
+    "title": "Oxidative-stress-induced T lymphocyte hyporesponsiveness is caused by structural modification rather than proteasomal degradation of crucial TCR signaling molecules.",
+    "summary": "The abstract says ROS alters proteins including p56(lck), not CDKL2. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Reactive Oxygen Species [Chemical/Ingredient]",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "cyclin dependent kinase like 2",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The affected kinase here is p56(lck), not CDKL2."
+      }
+    ]
+  },
+  "14534720": {
+    "title": "Death receptor-dependent and -independent pathways in anticancer drug-induced apoptosis of breast cancer cells.",
+    "summary": "The abstract says mitomycin C increased DR4 and that adriamycin increased DR4 and DR5 in drug-sensitive breast cancer cells. These are increase-of-amount claims for DR4.",
+    "rows": [
+      {
+        "subject": "Mitomycin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says MMC increased DR4 expression in a time-dependent manner."
+      },
+      {
+        "subject": "Adriamycin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says ADM increased DR4 and DR5 expression in sensitive cells."
+      }
+    ]
+  },
+  "14757365": {
+    "title": "Lysophosphatidylcholine is a regulator of tyrosine kinase activity and intracellular Ca(2+) level in Jurkat T cell line.",
+    "summary": "The abstract is about p56(lck) and ZAP70 signaling in Jurkat cells, not CDKL2. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "We 201",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "cyclin dependent kinase like 2",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The kinase discussed is p56(lck), not CDKL2, and the listed subject is not the inducer described."
+      }
+    ]
+  },
+  "14965271": {
+    "title": "Death receptors as targets of cancer therapeutics.",
+    "summary": "The abstract says TRAIL/Apo2L activates DR4 and DR5. That is an increase-of-activity claim for DR4.",
+    "rows": [
+      {
+        "subject": "recombinant TNF-related apoptosis-inducing ligand",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The review explicitly says TNF-related apoptosis-inducing ligand activates DR4 and DR5."
+      }
+    ]
+  },
+  "15228384": {
+    "title": "The plasma membrane translocation of diacylglycerol kinase delta1 is negatively regulated by conventional protein kinase C-dependent phosphorylation at Ser-22 and Ser-26 within the pleckstrin homology domain.",
+    "summary": "The abstract is about DGKδ1 and PMA-dependent phosphorylation, not DGKβ. It does not support the asserted target or subject grounding.",
+    "rows": [
+      {
+        "subject": "4-Methoxyamphetamine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The paper concerns PMA effects on DGKδ1, not 4-methoxyamphetamine acting on DGKβ."
+      }
+    ]
+  },
+  "15389801": {
+    "title": "Effects of sequential treatments with chemotherapeutic drugs followed by TRAIL on prostate cancer in vitro and in vivo.",
+    "summary": "The abstract says the listed chemotherapeutic drugs, including paclitaxel, vincristine, vinblastine, etoposide, doxorubicin, and camptothecin, augmented TRAIL-induced apoptosis through up-regulation of DR4 and DR5. This is an increase-of-amount claim for DR4 for all six drugs.",
+    "rows": [
+      {
+        "subject": "Etoposide",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The results explicitly include etoposide among the drugs that up-regulated DR4 and DR5."
+      },
+      {
+        "subject": "Camptothecin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The results explicitly include camptothecin among the drugs that up-regulated DR4 and DR5."
+      },
+      {
+        "subject": "Vinblastine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The results explicitly include vinblastine among the drugs that up-regulated DR4 and DR5."
+      },
+      {
+        "subject": "Vincristine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The results explicitly include vincristine among the drugs that up-regulated DR4 and DR5."
+      },
+      {
+        "subject": "Doxorubicin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The results explicitly include doxorubicin among the drugs that up-regulated DR4 and DR5."
+      },
+      {
+        "subject": "Paclitaxel",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract explicitly includes paclitaxel in the set of chemotherapeutic drugs that augmented TRAIL-induced apoptosis through up-regulation of DR4 and DR5."
+      }
+    ]
+  },
+  "15558947": {
+    "title": "The effect of cations on the amidase activity of human tissue kallikrein: 1-linear competitive inhibition by sodium, potassium, calcium and magnesium. 2-linear mixed inhibition by aluminium.",
+    "summary": "The abstract is about inhibition of human tissue kallikrein (hK1), not hexokinase 1. It therefore does not support a hexokinase 1 target claim.",
+    "rows": [
+      {
+        "subject": "Sodium",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "hexokinase 1",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The inhibited target is tissue kallikrein hK1, not hexokinase 1."
+      },
+      {
+        "subject": "Calcium",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "hexokinase 1",
+        "dataset_call": "true",
+        "assessment": "disagree",
+        "reason": "The abstract supports inhibition of tissue kallikrein hK1, not hexokinase 1."
+      },
+      {
+        "subject": "Potassium",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "hexokinase 1",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The inhibited target is tissue kallikrein hK1, not hexokinase 1."
+      },
+      {
+        "subject": "Magnesium",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "hexokinase 1",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The inhibited target is tissue kallikrein hK1, not hexokinase 1."
+      }
+    ]
+  },
+  "15571258": {
+    "title": "Stimulation of deoxycytidine kinase results in prolonged maintenance of the enzyme activity.",
+    "summary": "The abstract says both cladribine and aphidicolin stimulate and sustain deoxycytidine kinase activity. These are increase-of-activity claims.",
+    "rows": [
+      {
+        "subject": "Cladribine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Deoxycytidine kinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly lists cladribine among agents that stimulate deoxycytidine kinase activity."
+      },
+      {
+        "subject": "Aphidicolin [Chemical/Ingredient]",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Deoxycytidine kinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says aphidicolin stimulated and sustained deoxycytidine kinase activity."
+      }
+    ]
+  },
+  "15578578": {
+    "title": "Differentiation of HL-60 cells to granulocytes involves regulation of select diacylglycerol kinases (DGKs).",
+    "summary": "The abstract says R59022/R59949 are non-selective DGK inhibitors used during differentiation, but it does not support a specific DGKβ decrease claim.",
+    "rows": [
+      {
+        "subject": "R 59022",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "true",
+        "assessment": "disagree",
+        "reason": "R59022 is described as a non-selective DGK blocker, and the abstract does not isolate DGKβ as the inhibited target."
+      }
+    ]
+  },
+  "15694455": {
+    "title": "Tyrosine kinase inhibitors from the rainforest tree Polyscias murrayi.",
+    "summary": "The abstract says 3-(4-hydroxyphenyl) propanoic acid derivatives isolated from Polyscias murrayi inhibit Itk, and specifically notes that the 3-(4-hydroxyphenyl) propanoate and carboxyl moieties contribute to this inhibitory activity.",
+    "rows": [
+      {
+        "subject": "Propionic acid",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract explicitly describes propanoic acid derivatives as Itk inhibitors, so this PMID does support a decrease-of-activity relation at the class level."
+      }
+    ]
+  },
+  "15701972": {
+    "title": "Taming the Hippo: Raf-1 controls apoptosis by suppressing MST2/Hippo.",
+    "summary": "The abstract says siRNA downregulation of MST2 suppresses MST2-dependent apoptosis phenotypes. This is a decrease-of-amount/activity claim for MST2.",
+    "rows": [
+      {
+        "subject": "RNA, Small Interfering [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "serine/threonine kinase 3",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The paper states that downregulation of MST2 by siRNA reverts apoptosis hypersensitivity, which directly implies reduced MST2 expression/activity."
+      }
+    ]
+  },
+  "16030090": {
+    "title": "Sulindac inhibits beta-catenin expression in normal-appearing colon of hereditary nonpolyposis colorectal cancer and familial adenomatous polyposis patients.",
+    "summary": "The abstract says sulindac did not consistently change DR4 or DR5 expression. This does not support a sulindac decreases-DR4 claim.",
+    "rows": [
+      {
+        "subject": "Sulindac",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says there were no consistent differences in DR4 expression after sulindac treatment."
+      }
+    ]
+  },
+  "16289031": {
+    "title": "1'-Acetoxychavicol acetate induces apoptosis of myeloma cells via induction of TRAIL.",
+    "summary": "The abstract says acetoxychavicol acetate induces TRAIL and DR5. It does not support a DR4 increase claim.",
+    "rows": [
+      {
+        "subject": "Acetate",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract names TRAIL and DR5, not DR4, as the induced components."
+      }
+    ]
+  },
+  "16449964": {
+    "title": "Co-resistance to retinoic acid and TRAIL by insertion mutagenesis into RAM.",
+    "summary": "The abstract says retinoic acid induced TRAIL and its DR4 and DR5 receptors in PLB985 cells. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Tretinoin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says retinoic acid induced DR4 and DR5 receptors."
+      }
+    ]
+  },
+  "16481166": {
+    "title": "Discovery and SAR of 2-amino-5-[(thiomethyl)aryl]thiazoles as potent and selective Itk inhibitors.",
+    "summary": "The abstract says a series of aminothiazole small molecules were developed as potent and selective Itk inhibitors that also reduced anti-TCR-induced IL-2 production in vivo.",
+    "rows": [
+      {
+        "subject": "Absolute Genomic Position",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The paper is about unnamed small-molecule Itk inhibitors, but the TSV subject \"Absolute Genomic Position\" is clearly a bad grounding and is not supported by the abstract."
+      }
+    ]
+  },
+  "16597970": {
+    "title": "The locus coding for the 3-nitrobenzoate dioxygenase of Comamonas sp. strain JS46 is flanked by IS1071 elements and is subject to deletion and inversion events.",
+    "summary": "The abstract is about a bacterial dioxygenase locus and an NAD(P)H-dependent oxidoreductase, not DYRK1A. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Nicotinamide adenine dinucleotide",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This paper is unrelated to DYRK1A."
+      }
+    ]
+  },
+  "16636202": {
+    "title": "Functional characterization of homo- and heteromeric channel kinases TRPM6 and TRPM7.",
+    "summary": "The abstract says micromolar 2-APB maximally increases TRPM6 channel activity and enhances Mg2+/Ca2+ entry through TRPM6. This supports an increase-of-activity claim.",
+    "rows": [
+      {
+        "subject": "2-aminoethoxydiphenyl borate",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "transient receptor potential cation channel subfamily M member 6",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says micromolar 2-APB maximally increases TRPM6 activity."
+      }
+    ]
+  },
+  "16682193": {
+    "title": "Discovery and SAR of 2-amino-5-(thioaryl)thiazoles as potent and selective Itk inhibitors.",
+    "summary": "The abstract says structurally novel aminothiazole compounds are potent and selective Itk inhibitors with cell activity and in vivo suppression of anti-TCR-induced IL-2 production.",
+    "rows": [
+      {
+        "subject": "Absolute Genomic Position",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract supports inhibition of Itk by small molecules, but not by the subject \"Absolute Genomic Position\", which is a nonsensical extraction here."
+      }
+    ]
+  },
+  "16760983": {
+    "title": "Nuclear pore association confers optimal expression levels for an inducible yeast gene.",
+    "summary": "The abstract says HXK1 is normally induced by galactose and that interference with localization abrogates this induction. This supports a galactose increases-HXK1 statement.",
+    "rows": [
+      {
+        "subject": "Galactose",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "hexokinase 1",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract explicitly refers to the normal induction of HXK1 by galactose."
+      }
+    ]
+  },
+  "16865256": {
+    "title": "Histone deacetylase inhibitor, trichostatin A, increases the chemosensitivity of anticancer drugs in gastric cancer cell lines.",
+    "summary": "The abstract says trichostatin A increases DAPK-1 and DAPK-2 expression. This supports an increase-of-amount claim for DAPK1.",
+    "rows": [
+      {
+        "subject": "Trichostatin a",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "death associated protein kinase 1",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says TSA increases DAPK-1 expression."
+      }
+    ]
+  },
+  "16905533": {
+    "title": "Phosphorylation and up-regulation of diacylglycerol kinase gamma via its interaction with protein kinase C gamma.",
+    "summary": "The abstract is about DGKγ activation and phosphorylation, not DGKβ. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Diglyceride",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The regulated enzyme is DGKγ, not DGKβ."
+      }
+    ]
+  },
+  "17037746": {
+    "title": "[TRAIL impacts in growth and apoptosis of human ovarian carcinoma cell line SKOV3].",
+    "summary": "The abstract says cisplatin (DDP) increased DR4 and DR5 expression in SKOV3 cells. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Cisplatin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The conclusion explicitly says DDP can increase DR4 and DR5 expression in SKOV3 cells."
+      }
+    ]
+  },
+  "17420479": {
+    "title": "SLP-76 mediates and maintains activation of the Tec family kinase ITK via the T cell antigen receptor-induced association between SLP-76 and ITK.",
+    "summary": "The abstract says SLP-76, especially its N-terminal tyrosine residues, is required for TCR-induced tyrosine phosphorylation and activation of ITK. This is a mechanistic residue-level statement about SLP-76 and ITK signaling.",
+    "rows": [
+      {
+        "subject": "Tyrosine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract refers to tyrosine residues within SLP-76 that are required for ITK activation, not tyrosine as a standalone chemical that increases ITK."
+      }
+    ]
+  },
+  "17499505": {
+    "title": "Hit-to-lead studies on benzimidazole inhibitors of ITK: discovery of a novel class of kinase inhibitors.",
+    "summary": "The abstract says benzimidazole compounds were identified and optimized as selective inhibitors of ITK, with improved potency defined by hit-to-lead SAR studies.",
+    "rows": [
+      {
+        "subject": "Benzimidazoles [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract directly states that benzimidazole compounds are selective inhibitors of ITK."
+      }
+    ]
+  },
+  "18193086": {
+    "title": "Mechanisms of enhancement of TRAIL tumoricidal activity against human cancer cells of different origin by dipyridamole.",
+    "summary": "The abstract says dipyridamole upregulates both DR4 and DR5, even though the functional dependence is stronger for DR5. This still supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Dipyridamole",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The paper explicitly states that dipyridamole upregulated both DR4 and DR5 and increased their cell-surface expression."
+      }
+    ]
+  },
+  "18203008": {
+    "title": "The role of TRAIL death receptors in the treatment of hematological malignancies.",
+    "summary": "The abstract says chemotherapeutic agents increase DR4 and DR5 expression on tumor cells. This supports a broad antineoplastics-to-DR4 increase statement.",
+    "rows": [
+      {
+        "subject": "Antineoplastics",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The review explicitly says chemotherapeutic agents increase the expressions of DR4 and DR5 on tumor cells."
+      }
+    ]
+  },
+  "18362890": {
+    "title": "Threonine 74 of MOB1 is a putative key phosphorylation site by MST2 to form the scaffold to activate nuclear Dbf2-related kinase 1.",
+    "summary": "The abstract says okadaic acid activates MST2 and that OA-induced NDR1 activation depends on MST2. This supports an increase-of-activity claim for MST2.",
+    "rows": [
+      {
+        "subject": "Okadaic acid",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "serine/threonine kinase 3",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says okadaic acid activates MST2."
+      }
+    ]
+  },
+  "18477665": {
+    "title": "Regulation of ZIP and ZnT zinc transporters in zebrafish gill: zinc repression of ZIP10 transcription by an intronic MRE cluster.",
+    "summary": "The abstract is about zinc transporter regulation in zebrafish gill, not DAPK3. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Zinc",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "death associated protein kinase 3",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The down-regulated target is ZIP10, not DAPK3."
+      }
+    ]
+  },
+  "18680719": {
+    "title": "Kaempferol sensitizes colon cancer cells to TRAIL-induced apoptosis.",
+    "summary": "The abstract says kaempferol markedly up-regulates DR4 and DR5, although DR5 is functionally dominant in the co-treatment response. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Kaempferol",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says kaempferol markedly up-regulated DR5 and DR4."
+      }
+    ]
+  },
+  "18723480": {
+    "title": "Diallyl trisulfide increases the effectiveness of TRAIL and inhibits prostate cancer growth in an orthotopic model: molecular mechanisms.",
+    "summary": "The abstract says diallyl trisulfide induces DR4 and DR5 expression in prostate cancer cells and tumors. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Allyl trisulfide",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The paper directly states that DATS induced DR4 and DR5 expression."
+      }
+    ]
+  },
+  "18767990": {
+    "title": "The catalytic role of INCENP in Aurora B activation and the kinetic mechanism of Aurora B/INCENP.",
+    "summary": "The abstract says INCENP catalytically promotes Aurora B autoactivation and autophosphorylation. This is an increase-of-activity claim.",
+    "rows": [
+      {
+        "subject": "INCENP protein, human",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "aurora kinase B",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The paper directly states that INCENP plays a catalytic role in Aurora B autophosphorylation and activation."
+      }
+    ]
+  },
+  "18930400": {
+    "title": "2-Aminobenzimidazoles as potent ITK antagonists: trans-stilbene-like moieties targeting the kinase specificity pocket.",
+    "summary": "The abstract says 2-aminobenzimidazoles with trans-stilbene-like extensions were designed as novel ITK antagonists and that several compounds showed inhibitory activity in a functional assay.",
+    "rows": [
+      {
+        "subject": "2-aminobenzimidazole",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The paper explicitly presents 2-aminobenzimidazoles as ITK antagonists with inhibitory activity."
+      },
+      {
+        "subject": "Stilbenes [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The trans-stilbene-like moiety is part of the compound series described as novel ITK antagonists."
+      }
+    ]
+  },
+  "18949482": {
+    "title": "Regulation of magnesium reabsorption in DCT.",
+    "summary": "The abstract says ATP inhibits TRPM6 activity through its alpha-kinase domain. It does not support an increase claim.",
+    "rows": [
+      {
+        "subject": "Adenosine triphosphate",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "transient receptor potential cation channel subfamily M member 6",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says ATP inhibits TRPM6 activity."
+      }
+    ]
+  },
+  "18980980": {
+    "title": "Sulforaphane enhances the therapeutic potential of TRAIL in prostate cancer orthotopic model through regulation of apoptosis, metastasis, and angiogenesis.",
+    "summary": "The abstract says sulforaphane up-regulates DR4 and DR5 in cells and tumor tissues. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Sulforaphane",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The results explicitly state that sulforaphane up-regulated DR4 and DR5."
+      }
+    ]
+  },
+  "19146952": {
+    "title": "The mixed-lineage kinase DLK undergoes Src-dependent tyrosine phosphorylation and activation in cells exposed to vanadate or platelet-derived growth factor (PDGF).",
+    "summary": "The abstract is about activation of DLK, a mixed-lineage kinase, not DAPK3. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Vanadates [Chemical/Ingredient]",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "death associated protein kinase 3",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The activated kinase in this paper is DLK, not DAPK3."
+      }
+    ]
+  },
+  "19194888": {
+    "title": "The role of ZIP8 down-regulation in cadmium-resistant metallothionein-null cells.",
+    "summary": "The abstract is about ZIP8 and cadmium resistance, not DAPK3. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Cadmium",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "death associated protein kinase 3",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The down-regulated target is ZIP8, not DAPK3."
+      }
+    ]
+  },
+  "19242551": {
+    "title": "Green tea polyphenols rescue of brain defects induced by overexpression of DYRK1A.",
+    "summary": "The abstract says EGCG is a specific and safe DYRK1A inhibitor that rescues phenotypes caused by DYRK1A overexpression. This does not support an increase claim.",
+    "rows": [
+      {
+        "subject": "epigallocatechin gallate",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract explicitly describes EGCG as a DYRK1A inhibitor, which is the opposite direction from the asserted increase."
+      }
+    ]
+  },
+  "19282176": {
+    "title": "QSAR analysis of pyrazolidine-3,5-diones derivatives as Dyrk1A inhibitors.",
+    "summary": "The abstract says the work is searching for therapeutic agents with Dyrk1A inhibition activity. This supports a broad decrease claim at the therapeutic-agent level.",
+    "rows": [
+      {
+        "subject": "therapeutic agent",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly frames the compounds as therapeutic agents with Dyrk1A inhibition activity."
+      }
+    ]
+  },
+  "19737941": {
+    "title": "Suberoylanilide hydroxamic acid sensitizes human oral cancer cells to TRAIL-induced apoptosis through increase DR5 expression.",
+    "summary": "The abstract says suberoylanilide hydroxamic acid increased Fas, DR4, and DR5 expression, though DR5 appears to be the main apoptotic route. This still supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Vorinostat",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly states that suberoylanilide hydroxamic acid increased DR4 and DR5 protein expression."
+      }
+    ]
+  },
+  "19780399": {
+    "title": "Epithelial Mg2+ channel TRPM6: insight into the molecular regulation.",
+    "summary": "The abstract says estrogen stimulates TRPM6 activity in the short term and positively regulates TRPM6 transcription in the long term. This supports an increase claim.",
+    "rows": [
+      {
+        "subject": "Estrogens",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "transient receptor potential cation channel subfamily M member 6",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The review explicitly says estrogen stimulates TRPM6 activity and transcription."
+      }
+    ]
+  },
+  "19837585": {
+    "title": "Evaluation of substituted 6-arylquinazolin-4-amines as potent and selective inhibitors of cdc2-like kinases (Clk).",
+    "summary": "The abstract says 6-arylquinazolin-4-amines are potent and selective inhibitors of Clk kinases, including Clk1. This supports a decrease claim.",
+    "rows": [
+      {
+        "subject": "Amine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "CDC like kinase 1",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract explicitly says the amine scaffold compounds inhibit Clk kinases and represent tools for Clk1 inhibition."
+      }
+    ]
+  },
+  "20081832": {
+    "title": "Genome-wide RNAi screen identifies human host factors crucial for influenza virus replication.",
+    "summary": "The abstract says a small-molecule inhibitor of CLK1 reduced influenza replication, but the listed subject is not that inhibitor. It does not support the asserted subject.",
+    "rows": [
+      {
+        "subject": "Absolute Genomic Position",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Cdc-like kinase 1",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The paper mentions a CLK1 inhibitor but not any subject corresponding to “Absolute Genomic Position.”"
+      }
+    ]
+  },
+  "20108770": {
+    "title": "[Research of ITK regulation on mouse spleen lymphocytes proliferation and differentiation].",
+    "summary": "The abstract says Itk-targeting siRNA suppresses Itk protein expression in mouse spleen lymphocytes and reduces proliferation together with IL-2, IL-4, IL-5, and IFN-gamma secretion.",
+    "rows": [
+      {
+        "subject": "RNA, Small Interfering [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly reports that Itk-siRNA suppresses Itk protein expression."
+      }
+    ]
+  },
+  "20943371": {
+    "title": "Grifolin, a potent antitumour natural product upregulates death-associated protein kinase 1 DAPK1 via p53 in nasopharyngeal carcinoma cells.",
+    "summary": "The abstract says grifolin induced DAPK1 mRNA and protein in a dose-dependent manner. This supports an increase-of-amount claim for DAPK1.",
+    "rows": [
+      {
+        "subject": "grifolin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "death associated protein kinase 1",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract directly states that grifolin induced DAPK1 mRNA and protein."
+      }
+    ]
+  },
+  "21034360": {
+    "title": "Diacylglycerol kinase alpha regulates globular adiponectin-induced reactive oxygen species.",
+    "summary": "The abstract says R59022 reduced gAd-induced responses and links the effect to DGKα. It does not support DGKβ as the target.",
+    "rows": [
+      {
+        "subject": "R 59022",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "true",
+        "assessment": "disagree",
+        "reason": "The inhibitor effect is tied to DGKα in this abstract, not DGKβ."
+      }
+    ]
+  },
+  "21127198": {
+    "title": "ROS and CHOP are critical for dibenzylideneacetone to sensitize tumor cells to TRAIL through induction of death receptors and downregulation of cell survival proteins.",
+    "summary": "The abstract says dibenzylideneacetone induces DR4 and DR5 and that N-acetylcysteine blocks this induction. It does not support NAC as an inducer of DR4.",
+    "rows": [
+      {
+        "subject": "Acetylcysteine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract says N-acetylcysteine blocked DBA-induced DR4/DR5 induction rather than increasing DR4."
+      }
+    ]
+  },
+  "21138328": {
+    "title": "Controlling the activity of the Tec kinase Itk by mutation of the phenylalanine gatekeeper residue.",
+    "summary": "The abstract says mutating the Itk gatekeeper residue F434 to glycine or alanine inactivates Itk, and secondary mutations can rescue activity. This is a mutational residue study of kinase regulation.",
+    "rows": [
+      {
+        "subject": "Glycine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Glycine appears only as a residue substitution in an Itk mutant; the abstract does not support glycine as a chemical entity that decreases ITK."
+      }
+    ]
+  },
+  "21156789": {
+    "title": "Ursolic acid, a pentacyclin triterpene, potentiates TRAIL-induced apoptosis through p53-independent up-regulation of death receptors: evidence for the role of reactive oxygen species and JNK.",
+    "summary": "The abstract says ursolic acid induces cell-surface DR4 and DR5 expression and that this upregulation depends on ROS and JNK. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "ursolic acid",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The paper directly says ursolic acid induced cell-surface expression of DR4 and DR5."
+      }
+    ]
+  },
+  "21170338": {
+    "title": "ZNF274 recruits the histone methyltransferase SETDB1 to the 3' ends of ZNF genes.",
+    "summary": "The abstract is about ZNF274, KAP1, and SETDB1 recruitment. It does not make a CDKN3 claim.",
+    "rows": [
+      {
+        "subject": "RNA, Small Interfering [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "cyclin dependent kinase inhibitor 3",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The siRNA in this paper targets ZNF274, not CDKN3."
+      }
+    ]
+  },
+  "21172010": {
+    "title": "c-Jun NH2-terminal kinase-dependent upregulation of DR5 mediates cooperative induction of apoptosis by perifosine and TRAIL.",
+    "summary": "The abstract says perifosine elevates DR4 and DR5, but vitamin C does not mediate or increase that response. This does not support an ascorbic-acid increases-DR4 claim.",
+    "rows": [
+      {
+        "subject": "Ascorbic acid",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract specifically says vitamin C did not block perifosine-induced DR4/DR5 elevation and does not present vitamin C as a DR4 inducer."
+      }
+    ]
+  },
+  "21209944": {
+    "title": "Resveratrol enhances antitumor activity of TRAIL in prostate cancer xenografts through activation of FOXO transcription factor.",
+    "summary": "The abstract says resveratrol upregulates TRAIL-R1/DR4 and TRAIL-R2/DR5 in xenograft tumors. This is an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Resveratrol",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The results explicitly state that resveratrol upregulated TRAIL-R1/DR4 expression."
+      }
+    ]
+  },
+  "21403400": {
+    "title": "The Notch ligand Jagged2 promotes lung adenocarcinoma metastasis through a miR-200-dependent pathway in mice.",
+    "summary": "The abstract says Jagged2 promotes lung adenocarcinoma metastasis by increasing Gata factors, suppressing the miR-200 family, and inducing EMT. It is about microRNA regulation of EMT, not ITK.",
+    "rows": [
+      {
+        "subject": "MicroRNAs [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The microRNAs discussed are miR-200 family regulators of EMT and metastasis, with no relation to ITK in the abstract."
+      }
+    ]
+  },
+  "21450467": {
+    "title": "Potent and selective small molecule inhibitors of specific isoforms of Cdc2-like kinases (Clk) and dual specificity tyrosine-phosphorylation-regulated kinases (Dyrk).",
+    "summary": "The abstract says substituted 6-arylquinazolin-4-amines yielded selective inhibitors of Clk1, Clk4, Dyrk1A and Dyrk1B. This supports a decrease claim for CLK1.",
+    "rows": [
+      {
+        "subject": "Amine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "CDC like kinase 1",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract explicitly says the amine chemotype yielded selective inhibitors of Clk1."
+      }
+    ]
+  },
+  "21585338": {
+    "title": "The DLK gene is a transcriptional target of PPARγ.",
+    "summary": "The abstract is about DLK (dual leucine zipper-bearing kinase), not DAPK3. It does not support the DAPK3 target grounding.",
+    "rows": [
+      {
+        "subject": "Rosiglitazone",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "death associated protein kinase 3",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The increased target is DLK, not DAPK3."
+      }
+    ]
+  },
+  "21702500": {
+    "title": "Effect of β-phenylethyl isothiocyanate from cruciferous vegetables on growth inhibition and apoptosis of cervical cancer cells through the induction of death receptors 4 and 5.",
+    "summary": "The abstract says PD98059 increases DR4 and DR5 expression. This is an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "MEK Inhibitor PD-98059",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract directly says PD98059 increased the expression of DR4 and DR5."
+      }
+    ]
+  },
+  "21710690": {
+    "title": "Aberrantly expressed AURKC enhances the transformation and tumourigenicity of epithelial cells.",
+    "summary": "The abstract says overexpressed AURKC-GFP lowers AURKB levels. It does not support a claim that GFP itself is the agent reducing Aurora B.",
+    "rows": [
+      {
+        "subject": "Green Fluorescent Proteins [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "aurora kinase B",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The decrease is attributed to overexpressed AURKC-GFP as a fusion construct, not to GFP as an independent causal agent."
+      }
+    ]
+  },
+  "21713362": {
+    "title": "Implication of NF-κB and p53 in the expression of TRAIL-death receptors and apoptosis by apple procyanidins in human metastatic SW620 cells.",
+    "summary": "The abstract says apple procyanidins upregulate TRAIL-DR4/-DR5 expression and that NF-κB and p53 contribute to that effect. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Proanthocyanidins",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The introduction and conclusion both state that apple procyanidins upregulate TRAIL-DR4/-DR5."
+      }
+    ]
+  },
+  "21735605": {
+    "title": "",
+    "summary": "No abstract was retrievable for this PMID in the current session, so I cannot do a direct abstract-based assessment.",
+    "rows": [
+      {
+        "subject": "Amine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "false",
+        "assessment": "unable_to_assess",
+        "reason": "I could not retrieve an abstract for this PMID in the current session, so I cannot make a direct abstract-based judgment."
+      }
+    ]
+  },
+  "21744293": {
+    "title": "Heat acclimation-induced changes in heart glycogen/glucose metabolism in rats.",
+    "summary": "The abstract discusses heart glycogen, glucose, G6P, and hexokinase during heat acclimation. It does not make a glucokinase claim.",
+    "rows": [
+      {
+        "subject": "Glucose",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "glucokinase",
+        "dataset_call": "true",
+        "assessment": "disagree",
+        "reason": "The abstract does not describe glucose increasing glucokinase; the matched “Glk” refers to glycogen rather than glucokinase."
+      }
+    ]
+  },
+  "21832054": {
+    "title": "Truncation of murine CaV1.2 at Asp-1904 results in heart failure after birth.",
+    "summary": "The abstract is about CaV1.2 channel splice variants named HK1 and LK1. It does not concern the metabolic enzyme hexokinase 1.",
+    "rows": [
+      {
+        "subject": "Proteasome inhibitor",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "hexokinase 1",
+        "dataset_call": "true",
+        "assessment": "disagree",
+        "reason": "HK1 here is a CaV1.2 splice variant label, not hexokinase 1."
+      }
+    ]
+  },
+  "21861178": {
+    "title": "Methylglyoxal impairs insulin signalling and insulin action on glucose-induced insulin secretion in the pancreatic beta cell line INS-1E.",
+    "summary": "The abstract says Gck expression is glucose-induced and that methylglyoxal abolishes this response. This supports a glucose increases-Gck statement.",
+    "rows": [
+      {
+        "subject": "Glucose",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "glucokinase",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The results explicitly refer to glucose-induced Gck expression that was abolished by methylglyoxal."
+      }
+    ]
+  },
+  "22160140": {
+    "title": "Sodium butyrate-induced DAPK-mediated apoptosis in human gastric cancer cells.",
+    "summary": "The abstract says sodium butyrate increased DAPK1/2 gene expression during apoptosis. This supports an increase-of-amount claim for DAPK1.",
+    "rows": [
+      {
+        "subject": "sodium butyrate",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Death-associated protein kinase 1",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says sodium butyrate increased DAPK1/2 gene expression."
+      }
+    ]
+  },
+  "22447040": {
+    "title": "Down-regulation of Cbl-b by bufalin results in up-regulation of DR4/DR5 and sensitization of TRAIL-induced apoptosis in breast cancer cells.",
+    "summary": "The abstract says bufalin upregulates DR4 and DR5 and sensitizes cells to TRAIL-induced apoptosis. This is an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Bufalin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The results and conclusion both state that bufalin up-regulated DR4 and DR5."
+      }
+    ]
+  },
+  "22451476": {
+    "title": "The Bacillus subtilis essential gene dgkB is dispensable in mutants with defective lipoteichoic acid synthesis.",
+    "summary": "The abstract says repression of dgkB causes diglyceride accumulation; it does not say diglyceride decreases dgkB. This does not support the stated decrease predicate.",
+    "rows": [
+      {
+        "subject": "Diglyceride",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Diglyceride is described as a substrate that accumulates when dgkB is repressed, not as a cause of dgkB decrease."
+      }
+    ]
+  },
+  "22464456": {
+    "title": "X-ray crystallographic structure-based design of selective thienopyrazole inhibitors for interleukin-2-inducible tyrosine kinase.",
+    "summary": "The abstract says thienopyrazole-indole compounds were designed as novel and selective Itk inhibitors, with some compounds showing high potency and improved selectivity.",
+    "rows": [
+      {
+        "subject": "Indole",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract explicitly describes thienopyrazole-indole inhibitors of Itk, so this PMID does support an indole-containing inhibitor decreasing ITK activity."
+      }
+    ]
+  },
+  "22465880": {
+    "title": "DAPk1 inhibits NF-κB activation through TNF-α and INF-γ-induced apoptosis.",
+    "summary": "The abstract says TNF-α and IFN-γ induce DAPk1, but the listed subject “Second Messenger Systems” is not the inducer described. It does not support the asserted subject.",
+    "rows": [
+      {
+        "subject": "Second Messenger Systems",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "death associated protein kinase 1",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The actual inducers in the abstract are TNF-α and IFN-γ, not a generic second-messenger subject."
+      }
+    ]
+  },
+  "22513097": {
+    "title": "New insights into Escherichia coli metabolism: carbon scavenging, acetate metabolism and carbon recycling responses during growth on glycerol.",
+    "summary": "The abstract says glk was overexpressed during growth on glycerol. This does not support a glycerol decreases-glucokinase claim.",
+    "rows": [
+      {
+        "subject": "Glycerin",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "glucokinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract explicitly reports overexpression of glk during growth on glycerol, not a decrease."
+      }
+    ]
+  },
+  "22569791": {
+    "title": "Effects of liraglutide on β-cell-specific glucokinase-deficient neonatal mice.",
+    "summary": "The abstract is about liraglutide in glucokinase-deficient mice and mentions triglycerides only as a metabolic readout. It does not say triglycerides increase glucokinase.",
+    "rows": [
+      {
+        "subject": "Triglycerides",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "glucokinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Triglycerides are discussed as an outcome that liraglutide transiently lowered, not as a cause of glucokinase induction."
+      }
+    ]
+  },
+  "22581798": {
+    "title": "Dopamine acts through Cryptochrome to promote acute arousal in Drosophila.",
+    "summary": "The abstract is about the circadian CLOCK mutant (Clk) and CRY in Drosophila, not CDC-like kinase 1. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Dopamine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "CDC like kinase 1",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Here Clk refers to the circadian clock gene, not CDC-like kinase 1."
+      }
+    ]
+  },
+  "22627682": {
+    "title": "Involvement of diacylglycerol kinase γ in modulation of iNOS synthesis in Golgi apparatus of vascular endothelial cells.",
+    "summary": "The abstract is about DGKγ regulation, with SB203580 attenuating IL-1β-induced DGKγ expression. It does not support DGKβ as the target.",
+    "rows": [
+      {
+        "subject": "Sb 203580",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The regulated isoform in the paper is DGKγ, not DGKβ."
+      }
+    ]
+  },
+  "22659843": {
+    "title": "Phospho-specific Smad3 signaling: impact on breast oncogenesis.",
+    "summary": "The abstract is a review of phospho-specific Smad3 signaling in breast oncogenesis, including the cytostatic and pro-apoptotic effects of TGF-beta and its role in EMT. It does not discuss ITK.",
+    "rows": [
+      {
+        "subject": "Cytostatic Agents",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract discusses cytostatic effects of TGF-beta signaling, not cytostatic agents increasing ITK."
+      }
+    ]
+  },
+  "22824090": {
+    "title": "Characterization of a putative grapevine Zn transporter, VvZIP3, suggests its involvement in early reproductive development in Vitis vinifera L.",
+    "summary": "The abstract is about the zinc transporter VvZIP3, not DAPK3. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Zinc",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "death associated protein kinase 3",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This paper is about VvZIP3 expression in grapevine, not DAPK3."
+      }
+    ]
+  },
+  "22846226": {
+    "title": "Chemotherapeutic agents enhance cell migration and epithelial-to-mesenchymal transition through transient up-regulation of tNOX (ENOX2) protein.",
+    "summary": "The abstract says low concentrations of chemotherapeutic agents such as doxorubicin and tamoxifen enhance migration and EMT in A549 cells through transient up-regulation of tNOX/ENOX2, not ITK.",
+    "rows": [
+      {
+        "subject": "Tamoxifen",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract links tamoxifen to EMT and migration through tNOX/ENOX2, not to ITK."
+      },
+      {
+        "subject": "Doxorubicin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract says doxorubicin transiently up-regulates tNOX/ENOX2, not ITK."
+      }
+    ]
+  },
+  "22946641": {
+    "title": "Small molecular glucokinase activators: has another new anti-diabetic therapeutic lost favour?",
+    "summary": "The abstract is explicitly about glucokinase activators as anti-diabetic or hypoglycemic therapeutics. That supports an increase-of-activity claim for a hypoglycemic-agent class.",
+    "rows": [
+      {
+        "subject": "Hypoglycemic agent",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "glucokinase",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract directly discusses glucokinase activators as anti-diabetic therapeutics, which is an increase-of-activity statement."
+      }
+    ]
+  },
+  "23124096": {
+    "title": "Overexpression of DYRK1A inhibits choline acetyltransferase induction by oleic acid in cellular models of Down syndrome.",
+    "summary": "The abstract says DYRK1A siRNA down-regulation rescued ChAT expression in trisomic cells. This supports a decrease-of-amount claim for DYRK1A.",
+    "rows": [
+      {
+        "subject": "RNA, Small Interfering [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says down-regulation of DYRK1A by siRNA rescued the phenotype."
+      }
+    ]
+  },
+  "23237976": {
+    "title": "Synthesis and biological evaluation of N-aryl-7-methoxybenzo[b]furo[3,2-d]pyrimidin-4-amines and their N-arylbenzo[b]thieno[3,2-d]pyrimidin-4-amine analogues as dual inhibitors of CLK1 and DYRK1A kinases.",
+    "summary": "The abstract says the amine-containing analogues are dual inhibitors of CLK1 and DYRK1A. This supports a decrease claim for CLK1.",
+    "rows": [
+      {
+        "subject": "Amine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "CDC like kinase 1",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The title and abstract explicitly describe the amine analogues as dual inhibitors of CLK1."
+      }
+    ]
+  },
+  "23264678": {
+    "title": "Diacylglycerol kinase inhibitor R59022 attenuates conjugated linoleic acid-mediated inflammation in human adipocytes.",
+    "summary": "The abstract says R59022 decreases CLA-induced DGKη expression and signaling. It does not support DGKβ as the target.",
+    "rows": [
+      {
+        "subject": "R 59022",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "true",
+        "assessment": "disagree",
+        "reason": "The mechanistic target pursued in this paper is DGKη, not DGKβ."
+      }
+    ]
+  },
+  "23266086": {
+    "title": "Diacylglycerol kinase θ: regulation and stability.",
+    "summary": "The abstract says DGKθ is regulated by magnesium and zinc, not DGKβ. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Zinc",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The regulated isoform in this abstract is DGKθ, not DGKβ."
+      },
+      {
+        "subject": "Magnesium",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The regulated isoform in this abstract is DGKθ, not DGKβ."
+      }
+    ]
+  },
+  "23336033": {
+    "title": "Novel Inverse Binding Mode of Indirubin Derivatives Yields Improved Selectivity for DYRK Kinases.",
+    "summary": "The abstract says indirubin derivatives are DYRK inhibitors, while water molecules are discussed only as part of the binding-site thermodynamic analysis. This supports indirubin as an inhibitor and does not support water as one.",
+    "rows": [
+      {
+        "subject": "Water",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Water is discussed as a binding-site feature, not as an inhibitor of DYRK1A."
+      },
+      {
+        "subject": "indirubin",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly presents indirubin derivatives as DYRK inhibitors."
+      }
+    ]
+  },
+  "23365613": {
+    "title": "Antitumor Effect of Periplocin in TRAIL-Resistant Human Hepatocellular Carcinoma Cells through Downregulation of IAPs.",
+    "summary": "The abstract says periplocin induces DR4 expression and sensitizes TRAIL-resistant hepatocellular carcinoma cells. This is an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "periplocin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says periplocin induced the expression of DR4 and FADD."
+      }
+    ]
+  },
+  "23496085": {
+    "title": "Pharmacophore and 3D-QSAR characterization of 6-arylquinazolin-4-amines as Cdc2-like kinase 4 (Clk4) and dual specificity tyrosine-phosphorylation-regulated kinase 1A (Dyrk1A) inhibitors.",
+    "summary": "The abstract explicitly says 6-arylquinazolin-4-amines are potent Dyrk1A inhibitors. This supports a decrease claim.",
+    "rows": [
+      {
+        "subject": "Amine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract explicitly states that the 6-arylquinazolin-4-amine analogs are potent Dyrk1A inhibitors."
+      }
+    ]
+  },
+  "23662112": {
+    "title": "Honokiol Eliminates Human Oral Cancer Stem-Like Cells Accompanied with Suppression of Wnt/ β -Catenin Signaling and Apoptosis Induction.",
+    "summary": "The abstract says honokiol eliminates oral cancer stem-like side-population cells and suppresses CD44 and Wnt/beta-catenin signaling, with associated apoptosis induction. ITK is not discussed.",
+    "rows": [
+      {
+        "subject": "honokiol",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The inhibitory effects in the abstract are on stemness and Wnt/beta-catenin signaling, not on ITK."
+      }
+    ]
+  },
+  "23665168": {
+    "title": "Structures of Down syndrome kinases, DYRKs, reveal mechanisms of kinase activation and substrate recognition.",
+    "summary": "The abstract discusses DYRK autophosphorylation on an activation-loop tyrosine residue, not tyrosine as an external inducer. It does not support the subject grounding.",
+    "rows": [
+      {
+        "subject": "Tyrosine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This is a residue-level activation mechanism paper, not a claim that tyrosine as a chemical increases DYRK1A."
+      }
+    ]
+  },
+  "23857473": {
+    "title": "CAPE promotes TRAIL-induced apoptosis through the upregulation of TRAIL receptors via activation of p38 and suppression of JNK in SK-Hep1 hepatocellular carcinoma cells.",
+    "summary": "The abstract says CAPE upregulates DR4 and DR5, and separately says JNK inhibition by SP600125 triggers DR4/DR5 upregulation. Since pyrazolanthrone is SP600125, this supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "pyrazolanthrone",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly states that JNK-specific inhibition by SP600125 triggered upregulation of DR4 and DR5."
+      }
+    ]
+  },
+  "23886836": {
+    "title": "Ibrutinib is an irreversible molecular inhibitor of ITK driving a Th1-selective pressure in T lymphocytes.",
+    "summary": "The abstract says ibrutinib is an irreversible molecular inhibitor of ITK and acts as an immunomodulatory agent that drives Th1-selective pressure in T lymphocytes.",
+    "rows": [
+      {
+        "subject": "Immunomodulators",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly supports an immunomodulator, specifically ibrutinib, as an inhibitor of ITK."
+      }
+    ]
+  },
+  "23984913": {
+    "title": "SU6668 suppresses proliferation of triple negative breast cancer cells through down-regulating MTDH expression.",
+    "summary": "The abstract says SU6668 suppresses proliferation of triple-negative breast cancer cells and down-regulates MTDH while affecting EMT-related markers. It does not mention ITK.",
+    "rows": [
+      {
+        "subject": "Su6668",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This paper is about SU6668 effects on MTDH and EMT markers in TNBC, not ITK inhibition."
+      }
+    ]
+  },
+  "23992744": {
+    "title": "The expression of stem cell protein Piwil2 and piR-932 in breast cancer.",
+    "summary": "The abstract profiles PIWIL2 and piR-932 expression in breast cancer stem cells and their relationship to tumor growth and metastasis through Latexin. It does not discuss ITK.",
+    "rows": [
+      {
+        "subject": "Ribonucleic acid",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The RNA species in this abstract are piRNAs associated with PIWIL2 biology, not RNAs increasing ITK."
+      }
+    ]
+  },
+  "24070067": {
+    "title": "Fluorescence linked enzyme chemoproteomic strategy for discovery of a potent and selective DAPK1 and ZIPK inhibitor.",
+    "summary": "The abstract says a pyrazolo[3,4-d]pyrimidinone (HS38) inhibits both DAPK1 and ZIPK/DAPK3. This supports decrease-of-activity claims for both kinases.",
+    "rows": [
+      {
+        "subject": "Pyrimidinones [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "death associated protein kinase 1",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract explicitly states that the pyrimidinone HS38 inhibits DAPK1."
+      },
+      {
+        "subject": "Pyrimidinones [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "death associated protein kinase 3",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly states that the pyrimidinone HS38 inhibits ZIPK/DAPK3."
+      }
+    ]
+  },
+  "24086398": {
+    "title": "FHOD1, a formin upregulated in epithelial-mesenchymal transition, participates in cancer cell migration and invasion.",
+    "summary": "The abstract says FHOD1 is upregulated during EMT and participates in cancer cell migration and invasion. Neither methenamine nor ITK is part of the reported biology.",
+    "rows": [
+      {
+        "subject": "Methenamine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract is about the formin FHOD1 in EMT; methenamine and ITK are not supported."
+      }
+    ]
+  },
+  "24553122": {
+    "title": "Acquired resistance to metformin in breast cancer cells triggers transcriptome reprogramming toward a degradome-related metastatic stem-like profile.",
+    "summary": "The abstract says chronic adaptation to metformin produces a metastatic stem-like transcriptomic program in breast cancer cells, with increased degradome and EMT-related features. It does not address ITK.",
+    "rows": [
+      {
+        "subject": "Metformin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The reported increase is in metastatic and EMT-related features after metformin resistance, not ITK activity."
+      }
+    ]
+  },
+  "24676346": {
+    "title": "Design and synthesis of a library of lead-like 2,4-bisheterocyclic substituted thiophenes as selective Dyrk/Clk inhibitors.",
+    "summary": "The abstract says thiophene derivatives yielded Dyrk inhibitors and that Clk1/Clk4 were identified as additional targets for one compound. This supports decrease claims for both DYRK1A and CLK1 in this file.",
+    "rows": [
+      {
+        "subject": "Thiophenes [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "CDC like kinase 1",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says Clk1 was identified as an additional target of the thiophene series."
+      },
+      {
+        "subject": "Thiophenes [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly describes the thiophene series as Dyrk inhibitors and notes a compound inhibiting Dyrk1A."
+      }
+    ]
+  },
+  "24930757": {
+    "title": "Ilimaquinone induces death receptor expression and sensitizes human colon cancer cells to TRAIL-induced apoptosis through activation of ROS-ERK/p38 MAPK-CHOP signaling pathways.",
+    "summary": "The abstract says ilimaquinone strongly up-regulates DR4 and DR5 expression. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "ilimaquinone",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says ilimaquinone strongly up-regulated DR4 and DR5 expression."
+      }
+    ]
+  },
+  "24972933": {
+    "title": "Downregulation of deoxycytidine kinase in cytarabine-resistant mantle cell lymphoma cells confers cross-resistance to nucleoside analogs gemcitabine, fludarabine and cladribine, but not to other classes of anti-lymphoma agents.",
+    "summary": "The abstract says dCK is downregulated in araC-resistant mantle cell lymphoma cells and that this causes cross-resistance to cladribine, gemcitabine, and fludarabine. It does not say those drugs themselves decrease dCK.",
+    "rows": [
+      {
+        "subject": "Cladribine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Deoxycytidine kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract attributes dCK downregulation to the resistant state, not to cladribine treatment."
+      },
+      {
+        "subject": "Gemcitabine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Deoxycytidine kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract says dCK downregulation confers cross-resistance to gemcitabine; it does not say gemcitabine decreases dCK."
+      },
+      {
+        "subject": "Fludarabine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Deoxycytidine kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract says dCK downregulation confers cross-resistance to fludarabine; it does not say fludarabine decreases dCK."
+      }
+    ]
+  },
+  "25017974": {
+    "title": "CCT327 enhances TRAIL-induced apoptosis through the induction of death receptors and downregulation of cell survival proteins in TRAIL-resistant human leukemia cells.",
+    "summary": "The abstract says CCT327 upregulates DR4 and DR5 and that this induction is mediated by ROS, while N-acetylcysteine blocks the induction. So the abstract supports ROS as a positive mediator of DR4 induction and does not support NAC as an inducer.",
+    "rows": [
+      {
+        "subject": "Reactive Oxygen Species [Chemical/Ingredient]",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The paper says CCT327-induced DR4/DR5 induction was mediated by ROS, which is compatible with ROS positively driving DR4 upregulation in this context."
+      },
+      {
+        "subject": "Acetylcysteine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "N-acetylcysteine blocked DR induction rather than increasing DR4."
+      }
+    ]
+  },
+  "25112873": {
+    "title": "Diacylglycerol kinase δ phosphorylates phosphatidylcholine-specific phospholipase C-dependent, palmitic acid-containing diacylglycerol species in response to high glucose levels.",
+    "summary": "The abstract says DGKδ-specific siRNA suppresses DGKδ-dependent phosphatidic acid production. It does not support DGKβ as the target.",
+    "rows": [
+      {
+        "subject": "RNA, Small Interfering [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The siRNA in this paper targets DGKδ, not DGKβ."
+      }
+    ]
+  },
+  "25164250": {
+    "title": "Thymoquinone restores radiation-induced TGF-β expression and abrogates EMT in chemoradiotherapy of breast cancer cells.",
+    "summary": "The abstract says thymoquinone reverses radiation-induced EMT-associated changes and restores TGF-beta-related responses in breast cancer cells. ITK is not mentioned.",
+    "rows": [
+      {
+        "subject": "thymoquinone",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract describes thymoquinone as counteracting radiation-induced EMT, not increasing ITK."
+      }
+    ]
+  },
+  "25240617": {
+    "title": "Computational & experimental evaluation of the structure/activity relationship of β-carbolines as DYRK1A inhibitors.",
+    "summary": "The abstract explicitly says β-carboline derivatives are DYRK1A inhibitors. This supports a decrease claim.",
+    "rows": [
+      {
+        "subject": "Carbolines",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly presents β-carbolines as DYRK1A inhibitors."
+      }
+    ]
+  },
+  "25247807": {
+    "title": "First selective dual inhibitors of tau phosphorylation and Beta-amyloid aggregation, two major pathogenic mechanisms in Alzheimer's disease.",
+    "summary": "The abstract says bis(hydroxyphenyl)-substituted thiophenes are selective dual inhibitors of Dyrk1A and amyloid-β aggregation. This supports a decrease claim for DYRK1A.",
+    "rows": [
+      {
+        "subject": "Thiophenes [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly states that the thiophenes are dual inhibitors of Dyrk1A."
+      }
+    ]
+  },
+  "25264830": {
+    "title": "Design and synthesis of thiazolo[5,4-f]quinazolines as DYRK1A inhibitors, part II.",
+    "summary": "The abstract says several thiazoloquinazoline derivatives are among the most potent DYRK1A/1B inhibitors disclosed. This supports a decrease claim.",
+    "rows": [
+      {
+        "subject": "Quinazoline",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says the quinazoline derivatives are highly potent DYRK1A inhibitors."
+      }
+    ]
+  },
+  "25268714": {
+    "title": "Design and synthesis of thiazolo[5,4-f]quinazolines as DYRK1A inhibitors, part I.",
+    "summary": "The abstract says thiazoloquinazoline compounds inhibited DYRK1A with nanomolar IC50 values. This supports a decrease claim.",
+    "rows": [
+      {
+        "subject": "Quinazoline",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says several quinazoline-derived compounds inhibited DYRK1A."
+      }
+    ]
+  },
+  "25287584": {
+    "title": "Up-regulation of hexokinase1 in the right ventricle of monocrotaline induced pulmonary hypertension.",
+    "summary": "The abstract says monocrotaline-induced pulmonary hypertension increases HK1 mRNA and protein expression in the right ventricle. This supports an increase-of-amount claim for hexokinase 1.",
+    "rows": [
+      {
+        "subject": "Monocrotaline",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "hexokinase 1",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says HK1 expression increased after monocrotaline treatment."
+      }
+    ]
+  },
+  "25293521": {
+    "title": "The XIAP inhibitor Embelin enhances TRAIL-induced apoptosis in human leukemia cells by DR4 and DR5 upregulation.",
+    "summary": "The abstract says embelin upregulates DR4 and DR5 and that this upregulation is required for enhanced TRAIL-induced apoptosis. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "embelin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says low-toxicity embelin upregulated DR4 and DR5 expression."
+      }
+    ]
+  },
+  "25298094": {
+    "title": "Plant-derived flavones as inhibitors of aurora B kinase and their quantitative structure-activity relationships.",
+    "summary": "The abstract says plant-derived flavones inhibit Aurora B, and specifically says quercetagetin inhibits AurB and prevents active phosphorylation. These are decrease-of-activity claims.",
+    "rows": [
+      {
+        "subject": "Flavones [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "aurora kinase B",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract opens by stating that several plant-derived flavones inhibit Aurora B kinase."
+      },
+      {
+        "subject": "quercetagetin",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "aurora kinase B",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says quercetagetin inhibits AurB and prevents active phosphorylation of Aurora kinases."
+      }
+    ]
+  },
+  "25692682": {
+    "title": "Differential mRNA expression and glucocorticoid-mediated regulation of TRPM6 and TRPM7 in the heart and kidney throughout murine pregnancy and development.",
+    "summary": "The abstract says glucocorticoid administration increased TRPM6 expression in fetal heart and maternal kidney. This supports an increase-of-amount claim.",
+    "rows": [
+      {
+        "subject": "Glucocorticoids",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "transient receptor potential cation channel subfamily M member 6",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says glucocorticoids increased TRPM6 expression."
+      }
+    ]
+  },
+  "25694039": {
+    "title": "Inhibition of uPAR-TGFβ crosstalk blocks MSC-dependent EMT in melanoma cells.",
+    "summary": "The abstract says a uPAR antisense oligonucleotide inhibits melanoma EMT driven by uPAR-TGF-beta crosstalk in the tumor microenvironment. The target discussed is uPAR/TGF-beta signaling, not ITK.",
+    "rows": [
+      {
+        "subject": "Antisense oligonucleotide",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The antisense oligonucleotide in this paper targets uPAR-related EMT biology, not ITK."
+      }
+    ]
+  },
+  "25746720": {
+    "title": "P21 activated kinase-1 mediates transforming growth factor β1-induced prostate cancer cell epithelial to mesenchymal transition.",
+    "summary": "The abstract says siRNA-mediated Pak1 inhibition blocks TGF-beta1-induced prostate cancer EMT and related signaling. ITK is not part of the reported mechanism.",
+    "rows": [
+      {
+        "subject": "RNA, Small Interfering [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The siRNA in this study targets Pak1, not ITK."
+      }
+    ]
+  },
+  "25796504": {
+    "title": "Cisplatin-mediated c-myc overexpression and cytochrome c (cyt c) release result in the up-regulation of the death receptors DR4 and DR5 and the activation of caspase 3 and caspase 9, likely responsible for the TRAIL-sensitizing effect of cisplatin.",
+    "summary": "The abstract says c-myc siRNA reduced DR4 and DR5 expression. This supports a decrease-of-amount claim for the siRNA intervention on DR4.",
+    "rows": [
+      {
+        "subject": "RNA, Small Interfering [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The paper explicitly says suppression of c-myc by siRNA reduced DR4 and DR5 expression."
+      }
+    ]
+  },
+  "25884904": {
+    "title": "Resveratrol suppresses epithelial-to-mesenchymal transition in colorectal cancer through TGF-β1/Smads signaling pathway mediated Snail/E-cadherin expression.",
+    "summary": "The abstract says resveratrol suppresses TGF-beta1-induced EMT in colorectal cancer through the Smads/Snail/E-cadherin pathway. No ITK relation is described.",
+    "rows": [
+      {
+        "subject": "Resveratrol",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The decrease-of-activity claim in the abstract concerns EMT signaling, not ITK."
+      }
+    ]
+  },
+  "25975647": {
+    "title": "5-azacytidine promotes terminal differentiation of hepatic progenitor cells.",
+    "summary": "The abstract is about 5-azacytidine-driven differentiation of hepatic progenitor cells. It does not make a DAPK3 or UDP claim.",
+    "rows": [
+      {
+        "subject": "Uridine diphosphate",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "death associated protein kinase 3",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Neither uridine diphosphate nor DAPK3 is the relation under study in this abstract."
+      }
+    ]
+  },
+  "26081757": {
+    "title": "Sesquiterpenes with TRAIL-resistance overcoming activity from Xanthium strumarium.",
+    "summary": "The abstract says compounds 1 and 5 increase DR4 and DR5, but it does not support the listed benzimidazole compound as the inducing agent.",
+    "rows": [
+      {
+        "subject": "2-cyclopentyl-5-(5-isoquinolylsulfonyl)-6-nitro-1H-benzo(D)imidazole",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract attributes DR4 induction to compounds 1 and 5 from Xanthium strumarium, not to the listed benzimidazole compound."
+      }
+    ]
+  },
+  "26181204": {
+    "title": "Blocking the epithelial-to-mesenchymal transition pathway abrogates resistance to anti-folate chemotherapy in lung cancer.",
+    "summary": "The abstract says pemetrexed resistance in NSCLC depends on EMT pathway activation, and kaempferol inhibits EMT signaling and reverses that chemoresistant phenotype. The paper does not discuss ITK.",
+    "rows": [
+      {
+        "subject": "Pemetrexed",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Pemetrexed is discussed as the chemotherapy whose resistance depends on EMT, not as an activator of ITK."
+      },
+      {
+        "subject": "Kaempferol",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Kaempferol is described as inhibiting EMT signaling and reversing chemoresistance, not increasing ITK."
+      },
+      {
+        "subject": "Kaempferol",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Although kaempferol inhibits EMT signaling in this study, the abstract gives no evidence that it decreases ITK."
+      }
+    ]
+  },
+  "26265694": {
+    "title": "Pretreatment microRNA Expression Impacting on Epithelial-to-Mesenchymal Transition Predicts Intrinsic Radiosensitivity in Head and Neck Cancer Cell Lines and Patients.",
+    "summary": "The abstract says pretreatment microRNA expression patterns tied to EMT predict intrinsic radiosensitivity in head and neck cancer. It is a biomarker study, not an ITK study.",
+    "rows": [
+      {
+        "subject": "MicroRNAs [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The microRNAs discussed are biomarkers and regulators of EMT-associated radiosensitivity, not inhibitors of ITK."
+      }
+    ]
+  },
+  "26329920": {
+    "title": "Anticancer and apoptotic effects on cell proliferation of diosgenin isolated from Costus speciosus (Koen.) Sm.",
+    "summary": "The abstract says the tested sample increased DR4 and that it had activity similar to paclitaxel in DR4 induction. This is enough to support a paclitaxel increases-DR4 statement.",
+    "rows": [
+      {
+        "subject": "Paclitaxel",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract uses paclitaxel as a positive comparator and explicitly says the sample had similar activity to paclitaxel in DR4 induction."
+      }
+    ]
+  },
+  "26404322": {
+    "title": "Fucoidan Elevates MicroRNA-29b to Regulate DNMT3B-MTSS1 Axis and Inhibit EMT in Human Hepatocellular Carcinoma Cells.",
+    "summary": "The abstract says fucoidan elevates miR-29b, suppresses DNMT3B, increases MTSS1, and inhibits EMT in hepatocellular carcinoma cells. ITK is not implicated.",
+    "rows": [
+      {
+        "subject": "fucoidan",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The reported inhibitory effect is on DNMT3B/EMT signaling, not on ITK."
+      }
+    ]
+  },
+  "26463141": {
+    "title": "[Molecular mechanism of cisplatin to enhance the ability of TRAIL in reversing multidrug resistance in gastric cancer cells].",
+    "summary": "The abstract says cisplatin (DDP) increased DR4 and DR5 expression, and the conclusion explicitly attributes DR4/DR5 upregulation to DDP. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Cisplatin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract explicitly concludes that DDP enhances DR4 and DR5 expression through c-myc upregulation."
+      }
+    ]
+  },
+  "26589320": {
+    "title": "Using exposure windows to explore an elusive biomarker: blood manganese.",
+    "summary": "The abstract is about blood manganese as an exposure biomarker, not DYRK1A. It does not support the asserted target.",
+    "rows": [
+      {
+        "subject": "Manganese",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "This paper is unrelated to DYRK1A."
+      }
+    ]
+  },
+  "26616219": {
+    "title": "Involvement of pregnane X receptor in the impaired glucose utilization induced by atorvastatin in hepatocytes.",
+    "summary": "The abstract says atorvastatin and PCN down-regulated GCK expression in cells and liver. These support decrease-of-amount claims for glucokinase.",
+    "rows": [
+      {
+        "subject": "Atorvastatin",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "glucokinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says atorvastatin down-regulated GCK expression."
+      },
+      {
+        "subject": "Pregnenolone Carbonitrile [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "glucokinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "PCN is part of the PXR activator control arm, and the abstract states that PCN down-regulated liver GCK expression."
+      }
+    ]
+  },
+  "26620371": {
+    "title": "A crucial role for ATR in the regulation of deoxycytidine kinase activity.",
+    "summary": "The abstract says aphidicolin causes dCK activation and that ATR is required for that up-regulation. This supports an increase-of-activity claim for aphidicolin.",
+    "rows": [
+      {
+        "subject": "Aphidicolin [Chemical/Ingredient]",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Deoxycytidine kinase",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract explicitly lists aphidicolin among treatments that caused dCK activation."
+      }
+    ]
+  },
+  "26768655": {
+    "title": "A novel diacylglycerol kinase α-selective inhibitor, CU-3, induces cancer cell apoptosis and enhances immune response.",
+    "summary": "The abstract is about a selective DGKα inhibitor, not DGKβ. It does not support the asserted target or subject grounding.",
+    "rows": [
+      {
+        "subject": "Absolute Genomic Position",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The active inhibitor targets DGKα, and the listed subject does not match it."
+      }
+    ]
+  },
+  "26803494": {
+    "title": "Restrained Phosphatidylcholine Synthesis in a Cellular Model of Down's Syndrome is Associated with the Overexpression of Dyrk1A.",
+    "summary": "The abstract says Dyrk1A siRNA down-regulation restored phosphatidylcholine levels in trisomic cells. This supports a decrease-of-amount claim for DYRK1A.",
+    "rows": [
+      {
+        "subject": "RNA, Small Interfering [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says Dyrk1A downregulation by siRNA restored the phenotype."
+      }
+    ]
+  },
+  "26833058": {
+    "title": "Polydatin ameliorates lipid and glucose metabolism in type 2 diabetes mellitus by downregulating proprotein convertase subtilisin/kexin type 9 (PCSK9).",
+    "summary": "The abstract says polydatin upregulated or enhanced GCK protein levels in cells and mice. This supports an increase-of-amount claim for glucokinase.",
+    "rows": [
+      {
+        "subject": "polydatin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "glucokinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The results explicitly say polydatin upregulated/enhanced GCK protein levels."
+      }
+    ]
+  },
+  "26959625": {
+    "title": "Ellagic acid inhibits proliferation and induces apoptosis in human glioblastoma cells.",
+    "summary": "The abstract says ellagic acid potentially up-regulates DR4 and DR5 in glioblastoma cells. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Ellagic Acid",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The conclusion explicitly states that ellagic acid potentially up-regulated DR4 and DR5."
+      }
+    ]
+  },
+  "26960973": {
+    "title": "Stress chaperone mortalin contributes to epithelial-mesenchymal transition and cancer metastasis.",
+    "summary": "The abstract says mortalin overexpression promotes EMT-like features, migration, and metastasis, while mortalin inhibition suppresses that phenotype. ITK is not mentioned.",
+    "rows": [
+      {
+        "subject": "mortalin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The increase-of-activity relation in the abstract concerns EMT and metastatic programs, not ITK."
+      }
+    ]
+  },
+  "27119584": {
+    "title": "Insights into mechanism of pyrido[2,3-d]pyrimidines as DYRK1A inhibitors based on molecular dynamic simulations.",
+    "summary": "The abstract explicitly describes pyrido[2,3-d]pyrimidine derivatives as DYRK1A inhibitors. This supports a decrease claim.",
+    "rows": [
+      {
+        "subject": "Pyrimidines [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract explicitly characterizes pyrido[2,3-d]pyrimidines as DYRK1A inhibitors."
+      }
+    ]
+  },
+  "27198178": {
+    "title": "Piperlongumine inhibits lung tumor growth via inhibition of nuclear factor kappa B signaling pathway.",
+    "summary": "The abstract says p50 siRNA augments piperlongumine-induced activation/expression of Fas and DR4. This supports an increase-of-amount/activity claim for the siRNA intervention in this context.",
+    "rows": [
+      {
+        "subject": "RNA, Small Interfering [Chemical/Ingredient]",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says p50 siRNA augmented the piperlongumine-associated activation of DR4."
+      }
+    ]
+  },
+  "27447890": {
+    "title": "Reversine triggers mitotic catastrophe and apoptosis in K562 cells.",
+    "summary": "The abstract says reversine is an AURKA/AURKB inhibitor and that it reduces AURKB expression. This is a decrease-of-activity/amount claim.",
+    "rows": [
+      {
+        "subject": "2-(4-morpholinoanilino)-6-cyclohexylaminopurine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Aurora kinase b",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "Reversine is explicitly described as an AURKB inhibitor that reduces AURKB expression in K562 cells."
+      }
+    ]
+  },
+  "27453691": {
+    "title": "Oridonin inhibits pancreatic cancer cell migration and epithelial-mesenchymal transition by suppressing Wnt/β-catenin signaling pathway.",
+    "summary": "The abstract says oridonin inhibits pancreatic cancer cell migration and EMT by suppressing Wnt/beta-catenin signaling. ITK is not discussed.",
+    "rows": [
+      {
+        "subject": "oridonin",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract supports inhibition of Wnt/beta-catenin-associated EMT, not inhibition of ITK."
+      }
+    ]
+  },
+  "27471572": {
+    "title": "Bleomycin (BLM) Induces Epithelial-to-Mesenchymal Transition in Cultured A549 Cells via the TGF-β/Smad Signaling Pathway.",
+    "summary": "The abstract says bleomycin induces EMT in A549 cells through the TGF-beta/Smad signaling pathway. It does not address ITK.",
+    "rows": [
+      {
+        "subject": "Bleomycin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Bleomycin is reported to induce EMT markers, not to increase ITK."
+      }
+    ]
+  },
+  "27553716": {
+    "title": "Inhibitory effects of atractylone on mast cell-mediated allergic reactions.",
+    "summary": "The abstract says atractylone inhibited up-regulation of p56(lck) tyrosine kinase activity, not CDKL2. It does not support the asserted subject or target.",
+    "rows": [
+      {
+        "subject": "p-Methoxy-N-methylphenethylamine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "cyclin dependent kinase like 2",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract is about atractylone acting on p56(lck), not the listed subject acting on CDKL2."
+      }
+    ]
+  },
+  "27629794": {
+    "title": "Gefitinib enhances human colon cancer cells to TRAIL-induced apoptosis of via autophagy- and JNK-mediated death receptors upregulation.",
+    "summary": "The abstract says gefitinib increases cell-surface DR4 and DR5 expression and uses DR4/DR5 knockdown to show functional relevance. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Gefitinib",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says gefitinib increases cell-surface DR4 and DR5 expression."
+      }
+    ]
+  },
+  "27878247": {
+    "title": "Oridonin inhibition and miR‑200b‑3p/ZEB1 axis in human pancreatic cancer.",
+    "summary": "The abstract says oridonin inhibits pancreatic cancer proliferation, migration, and EMT-associated markers while affecting the miR-200b-3p/ZEB1 axis. No ITK relation is stated.",
+    "rows": [
+      {
+        "subject": "oridonin",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The decrease-of-activity relation in the abstract is about EMT/ZEB1-associated biology, not ITK."
+      }
+    ]
+  },
+  "27974147": {
+    "title": "Dual activities of ritanserin and R59022 as DGKα inhibitors and serotonin receptor antagonists.",
+    "summary": "The abstract says ritanserin attenuates DGKα kinase activity. It does not support DGKβ as the target.",
+    "rows": [
+      {
+        "subject": "Ritanserin",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The inhibited isoform in the abstract is DGKα, not DGKβ."
+      }
+    ]
+  },
+  "27987431": {
+    "title": "Acriflavine Inhibits Acquired Drug Resistance by Blocking the Epithelial-to-Mesenchymal Transition and the Unfolded Protein Response.",
+    "summary": "The abstract says acriflavine blocks EMT and the unfolded protein response in multiple cancer models, including TGF-beta- or hypoxia-driven EMT. ITK is not discussed.",
+    "rows": [
+      {
+        "subject": "Acriflavine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Acriflavine is described as inhibiting EMT and UPR programs, not as an ITK inhibitor."
+      }
+    ]
+  },
+  "27989726": {
+    "title": "",
+    "summary": "No abstract was retrievable for this PMID in the current session, so I cannot do a direct abstract-based assessment.",
+    "rows": [
+      {
+        "subject": "Ritanserin",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "false",
+        "assessment": "unable_to_assess",
+        "reason": "I could not retrieve an abstract for this PMID in the current session, so I cannot make a direct abstract-based judgment."
+      }
+    ]
+  },
+  "28163906": {
+    "title": "An ELISA DYRK1A non-radioactive kinase assay suitable for the characterization of inhibitors.",
+    "summary": "The abstract is about assay methodology and says radioactive tracers are commonly used in characterization assays. It does not support radioactive tracers as DYRK1A inhibitors.",
+    "rows": [
+      {
+        "subject": "Radioactive Tracers [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "Radioactive tracers are described as assay tools, not as DYRK1A inhibitors."
+      }
+    ]
+  },
+  "28206714": {
+    "title": "Opposite effects of a glucokinase activator and metformin on glucose-regulated gene expression in hepatocytes.",
+    "summary": "The abstract says 2-deoxyglucose caused Gck repression. This supports a decrease-of-amount claim for glucokinase.",
+    "rows": [
+      {
+        "subject": "2-deoxy-D-glucose",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "glucokinase",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The results explicitly say 2-deoxyglucose caused Gck repression."
+      }
+    ]
+  },
+  "28264138": {
+    "title": "Structure-Based Design and Synthesis of Harmine Derivatives with Different Selectivity Profiles in Kinase versus Monoamine Oxidase Inhibition.",
+    "summary": "The abstract says harmine, a natural product, selectively inhibits DYRK1A and that analogues were optimized around this activity. This supports a decrease claim.",
+    "rows": [
+      {
+        "subject": "natural product",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says harmine, a natural product, selectively inhibits DYRK1A."
+      }
+    ]
+  },
+  "28337746": {
+    "title": "Thymidylate synthase is functionally associated with ZEB1 and contributes to the epithelial-to-mesenchymal transition of cancer cells.",
+    "summary": "The abstract says EMT-suppressing microRNAs reduce thymidylate synthase levels and that TS contributes to EMT, migration, stem-like features, and chemoresistance. It does not involve ITK.",
+    "rows": [
+      {
+        "subject": "MicroRNAs [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The microRNAs in this abstract regulate TS and EMT, not ITK."
+      }
+    ]
+  },
+  "28385506": {
+    "title": "Divergent synthesis of kinase inhibitor derivatives, leading to discovery of selective Gck inhibitors.",
+    "summary": "The abstract is about selective inhibitors of germinal center kinase (Gck, MAP4K2), not glucokinase. It does not support the glucokinase target grounding.",
+    "rows": [
+      {
+        "subject": "Kinase Inhibitor [EPC]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "glucokinase",
+        "dataset_call": "true",
+        "assessment": "disagree",
+        "reason": "Here Gck refers to germinal center kinase/MAP4K2, not glucokinase."
+      }
+    ]
+  },
+  "28408219": {
+    "title": "Developing DYRK inhibitors derived from the meridianins as a means of increasing levels of NFAT in the nucleus.",
+    "summary": "The abstract says the meridianin/indole-derived scaffold was developed for Dyrk1a inhibition, though azaindole analogues improved the downstream NFAT effect. This still supports an inhibitor claim for the indole scaffold family.",
+    "rows": [
+      {
+        "subject": "Indole",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "false",
+        "assessment": "disagree",
+        "reason": "The abstract says the meridianin scaffold, which is indole-derived, was developed around Dyrk1a inhibition and showed strong Dyrk1a binding."
+      }
+    ]
+  },
+  "28435431": {
+    "title": "Dioscin induces demethylation of DAPK-1 and RASSF-1alpha genes via the antioxidant capacity, resulting in apoptosis of bladder cancer T24 cells.",
+    "summary": "The abstract says dioscin demethylates DAPK1 and increases DAPK1 gene and protein expression. This supports an increase-of-amount claim for DAPK1.",
+    "rows": [
+      {
+        "subject": "Dioscin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "death associated protein kinase 1",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says dioscin increased DAPK1 gene and protein expression."
+      }
+    ]
+  },
+  "28478033": {
+    "title": "Epigallocatechin-3-gallate (EGCG) consumption in the Ts65Dn model of Down syndrome fails to improve behavioral deficits and is detrimental to skeletal phenotypes.",
+    "summary": "The abstract says EGCG, the main polyphenol in green tea, inhibits Dyrk1a activity. This supports a decrease claim.",
+    "rows": [
+      {
+        "subject": "Polyphenol",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "dual specificity tyrosine phosphorylation regulated kinase 1A",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says EGCG, the main polyphenol in green tea, inhibits Dyrk1a activity."
+      }
+    ]
+  },
+  "28498435": {
+    "title": "Plumbagin enhances TRAIL-induced apoptosis of human leukemic Kasumi‑1 cells through upregulation of TRAIL death receptor expression, activation of caspase-8 and inhibition of cFLIP.",
+    "summary": "The abstract says plumbagin increases death receptor expression and specifically increases DR4 and DR5 in xenograft tumors. This is an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "plumbagin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract states that plumbagin increased DR4 and DR5 expression."
+      }
+    ]
+  },
+  "28509438": {
+    "title": "Deguelin inhibits epithelial-to-mesenchymal transition and metastasis of human non-small cell lung cancer cells by regulating NIMA-related kinase 2.",
+    "summary": "The abstract says deguelin inhibits EMT and metastasis of NSCLC cells by regulating NEK2. ITK is not part of the reported pathway.",
+    "rows": [
+      {
+        "subject": "Deguelin",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract supports deguelin acting through NEK2 and EMT markers, not ITK."
+      }
+    ]
+  },
+  "28561591": {
+    "title": "Development of Selective Clk1 and -4 Inhibitors for Cellular Depletion of Cancer-Relevant Proteins.",
+    "summary": "The abstract says an m-fluorine substitution helped produce a potent Clk1/4 inhibitor, but it does not support elemental fluorine itself as the inhibitor.",
+    "rows": [
+      {
+        "subject": "Fluorine",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "CDC like kinase 1",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The active agent is a fluorinated inhibitor scaffold, not fluorine as a standalone chemical."
+      }
+    ]
+  },
+  "28712745": {
+    "title": "The Ligand Binding Landscape of Diacylglycerol Kinases.",
+    "summary": "The abstract explicitly describes ritanserin as a DGKα inhibitor. It does not support DGKβ as the target.",
+    "rows": [
+      {
+        "subject": "Ritanserin",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The inhibitor is characterized against DGKα, not DGKβ."
+      }
+    ]
+  },
+  "28869219": {
+    "title": "Andrographolide sensitizes prostate cancer cells to TRAIL-induced apoptosis.",
+    "summary": "The abstract says andrographolide causes ROS generation and that the mechanism is associated with DR4 up-regulation. That does not support a ROS decreases-DR4 claim.",
+    "rows": [
+      {
+        "subject": "Reactive Oxygen Species [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract links ROS generation to DR4 up-regulation and enhanced apoptosis, not to a decrease in DR4."
+      }
+    ]
+  },
+  "28967662": {
+    "title": "The hypoglycemic and antioxidant effects of polysaccharides from the petioles and pedicels of Euryale ferox Salisb. on alloxan-induced hyperglycemic mice.",
+    "summary": "The abstract says EFPP treatment increased hepatic GCK activity while reducing blood glucose. It does not support blood glucose itself as the inducer.",
+    "rows": [
+      {
+        "subject": "Blood Glucose [Chemical/Ingredient]",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "glucokinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract reports reduced blood glucose alongside increased GCK activity after EFPP treatment, not blood glucose causing GCK induction."
+      }
+    ]
+  },
+  "29047155": {
+    "title": "Maduramicin induces apoptosis and necrosis, and blocks autophagic flux in myocardial H9c2 cells.",
+    "summary": "The abstract says maduramicin increases DR4 and TRAIL expression and triggers the TRAIL/DR4-mediated extrinsic pathway. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "Maduramicin",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly states that maduramicin increased DR4 expression."
+      }
+    ]
+  },
+  "29048661": {
+    "title": "Combination of FGFR4 inhibitor Blu9931 and 5-fluorouracil effects on the biological characteristics of colorectal cancer cells.",
+    "summary": "The abstract says combined Blu9931 and 5-FU treatment affects colorectal cancer cell viability, apoptosis, and EMT markers, and specifically notes that Blu9931 inhibits FGFR4 whereas 5-FU does not. ITK is not involved.",
+    "rows": [
+      {
+        "subject": "Fluorouracil",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says Blu9931 inhibits FGFR4 while 5-FU does not; there is no evidence that fluorouracil decreases ITK."
+      }
+    ]
+  },
+  "29164887": {
+    "title": "Pterostilbene Enhances TRAIL-Induced Apoptosis through the Induction of Death Receptors and Downregulation of Cell Survival Proteins in TRAIL-Resistance Triple Negative Breast Cancer Cells.",
+    "summary": "The abstract says pterostilbene induces DR4 and DR5 expression and does so through ROS/ER stress/MAPK/CHOP signaling. This supports an increase-of-amount claim for DR4.",
+    "rows": [
+      {
+        "subject": "pterostilbene",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Tumor necrosis factor receptor superfamily, member 10a",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The paper directly states that pterostilbene induced DR4 and DR5 expression."
+      }
+    ]
+  },
+  "29221135": {
+    "title": "Silencing of BAG3 inhibits the epithelial-mesenchymal transition in human cervical cancer.",
+    "summary": "The abstract says BAG3 siRNAs inhibit cervical cancer cell growth, invasion, migration, and EMT markers. The target is BAG3, not ITK.",
+    "rows": [
+      {
+        "subject": "RNA, Small Interfering [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The siRNAs in this study silence BAG3 rather than ITK."
+      }
+    ]
+  },
+  "29572701": {
+    "title": "Diacylglycerol kinase α inactivation is an integral component of the costimulatory pathway that amplifies TCR signals.",
+    "summary": "The abstract says ritanserin behaves like a DGKα inhibitor in T-cell signaling. It does not support DGKβ as the target.",
+    "rows": [
+      {
+        "subject": "Ritanserin",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "diacylglycerol kinase beta",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The inhibited isoform discussed throughout is DGKα, not DGKβ."
+      }
+    ]
+  },
+  "29615928": {
+    "title": "Curcumol Exerts Anticancer Effect in Cholangiocarcinoma Cells via Down-Regulating CDKL3.",
+    "summary": "The abstract says curcumol inhibits CDKL3 and that CDKL3 knockdown phenocopies the anticancer effect. This supports a decrease claim for CDKL3.",
+    "rows": [
+      {
+        "subject": "curcumol",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Cyclin-dependent kinase-like 3",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says the effects are largely attributed to inhibition/down-regulation of CDKL3 by curcumol."
+      }
+    ]
+  },
+  "29738069": {
+    "title": "Knockdown of Beclin-1 impairs epithelial-mesenchymal transition of colon cancer cells.",
+    "summary": "The abstract says Beclin-1 knockdown impairs EMT of colon cancer cells, linking autophagy to EMT regulation. ITK is not discussed.",
+    "rows": [
+      {
+        "subject": "RNA, Small Interfering [Chemical/Ingredient]",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The knockdown target is Beclin-1, not ITK."
+      }
+    ]
+  },
+  "29743296": {
+    "title": "YB-1 Expression and Phosphorylation Regulate Tumorigenicity and Invasiveness in Melanoma by Influencing EMT.",
+    "summary": "The abstract says YB-1 expression and phosphorylation state regulate melanoma tumorigenicity, invasiveness, and EMT-like properties. It does not discuss ITK.",
+    "rows": [
+      {
+        "subject": "Carcinogen",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "Il2-inducible t-cell kinase",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract is about YB-1-driven EMT-like behavior in melanoma, not a carcinogen increasing ITK."
+      }
+    ]
+  },
+  "29844679": {
+    "title": "5-Azacytidine treatment induces demethylation of DAPK1 and MGMT genes and inhibits growth in canine mammary gland tumor cells.",
+    "summary": "The abstract says 5-azacytidine re-induced DAPK1 and increased DAPK1 mRNA expression. This supports an increase-of-amount claim for DAPK1.",
+    "rows": [
+      {
+        "subject": "Azacitidine",
+        "predicate": "biolink:increases_amount_or_activity_of",
+        "object": "death associated protein kinase 1",
+        "dataset_call": "true",
+        "assessment": "agree",
+        "reason": "The abstract explicitly says 5-azacytidine increased DAPK1 mRNA expression."
+      }
+    ]
+  },
+  "29912157": {
+    "title": "TRPM6 is Essential for Magnesium Uptake and Epithelial Cell Function in the Colon.",
+    "summary": "The abstract is about TRPM6/TRPM7 function and pharmacologic inhibition in colon cells. Magnesium is discussed as the transported ion and as a rescue supplement, not as a TRPM6 suppressor.",
+    "rows": [
+      {
+        "subject": "Magnesium",
+        "predicate": "biolink:decreases_amount_or_activity_of",
+        "object": "transient receptor potential cation channel subfamily M member 6",
+        "dataset_call": "false",
+        "assessment": "agree",
+        "reason": "The abstract does not say magnesium decreases TRPM6; magnesium supplementation rescued inhibitor-induced defects."
+      }
+    ]
+  }
+}
