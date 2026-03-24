@@ -1,0 +1,11 @@
+[project]
+name = "semmmeddb-checker"
+version = "0.1.0"
+description = "Manual abstract review workflow for LLM PMID checker triples"
+authors = [
+    { name = "Chris Mungall", email = "cjm@berkeleybop.org" }
+]
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "linkml-reference-validator>=0.1.8",
+]

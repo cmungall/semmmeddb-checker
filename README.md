@@ -2,7 +2,7 @@
 
 This repository contains a manual, abstract-level review of the `test_data_biolink.tsv` file from the `Translator-CATRAX/LLM_PMID_Checker` project.
 
-The goal was to inspect each cited PubMed abstract and decide whether the TSV's support call is correct for the asserted subject-predicate-object relation.
+The goal was to inspect each cited PubMed abstract, decide whether the TSV support call is correct for the asserted subject-predicate-object relation, and preserve enough structured evidence to make the review auditable.
 
 ## Scope
 
@@ -10,85 +10,117 @@ The goal was to inspect each cited PubMed abstract and decide whether the TSV's 
 - Unique PMIDs reviewed: `195`
 - Review basis: PubMed abstract text only
 - Output granularity: one markdown file per PMID
+- Row-level judgments: `195` `agree`, `24` `disagree`, `2` `unable_to_assess`
 
-## What Is In The Repository
+## Repository Contents
 
 - `test_data_biolink.tsv`
-  - Downloaded source file that was manually reviewed.
-- `data/pubmed_abstracts.json`
-  - Cached abstract/title text used during review.
+  - Downloaded source file under review.
 - `data/manual_assessments.json`
-  - Canonical structured review output.
-- `data/review_groups.json`
-  - Grouped review context used during the workflow.
+  - Canonical manual judgments and explanations.
+- `data/pubmed_abstracts.json`
+  - Cached PMID titles and abstract text used for the review.
+- `data/curie_hydration.json`
+  - CURIE lookup results with normalized labels, alias labels, equivalent IDs, and types.
+- `data/review_bundle.json`
+  - Generated enriched review payload that combines source rows, hydrated IDs, abstracts, snippets, and manual assessments.
+- `data/snippet_validation_report.json`
+  - Machine validation report for the supporting snippets.
 - `reviews/*.md`
   - One human-readable review file per PMID.
 - `tools/review_context.py`
-  - Helper for inspecting grouped PMID/object review context.
+  - Helper for inspecting grouped PMID/object review context during review.
+- `tools/review_data.py`
+  - Shared logic for source-row hydration, snippet extraction, cache seeding, and markdown rendering.
 - `tools/write_reviews.py`
-  - Generates the per-PMID markdown files from `data/manual_assessments.json`.
+  - Rebuilds enriched review data and writes the per-PMID markdown files.
+- `tools/validate_reviews.py`
+  - Validates the generated supporting snippets against the PMID cache using `linkml-reference-validator`.
+- `justfile`
+  - Convenience targets for rebuilding and validating the repository artifacts.
+- `pyproject.toml`, `uv.lock`
+  - `uv`-managed project metadata and lockfile.
 
-## Review Method
-
-For each PMID, I read the abstract and wrote a short summary of what the abstract actually says about the relevant predicate direction, then evaluated every row attached to that PMID.
-
-Each row in `data/manual_assessments.json` is labeled as one of:
-
-- `agree`
-  - The TSV support call matches what the abstract says.
-- `disagree`
-  - The TSV support call does not match the abstract.
-- `unable_to_assess`
-  - No abstract was retrievable in the review session, so no direct abstract-based judgment was possible.
-
-Important constraint:
-
-- This is an abstract-only assessment, not a full-text review.
-- Some rows are marked `disagree` because the subject grounding is wrong even when the paper does discuss the target.
-- Some rows are marked `agree` on unsupported calls because the abstract is about a different target, pathway, or sense of the term entirely.
-
-## Result Summary
-
-Row-level assessment counts:
-
-- `agree`: `195`
-- `disagree`: `24`
-- `unable_to_assess`: `2`
-
-Two PMIDs had no retrievable abstract during the session and were therefore marked `unable_to_assess`.
-
-## Per-PMID Review Format
+## Review Output Format
 
 Each file in `reviews/` contains:
 
 1. PMID and title
-2. A plain-language statement of what the abstract does say
-3. Every TSV assertion for that PMID
-4. The original dataset support call
-5. My manual judgment and rationale
+2. A plain-language statement of what the abstract actually says
+3. The full abstract text
+4. Every source triple for that PMID
+5. Subject and object IDs from the source TSV
+6. Alias/normalization lookup data for those IDs
+7. The original dataset support call
+8. My manual judgment and rationale
+9. Supporting snippet(s) from the abstract for that case
 
-## Regenerating The Markdown Reviews
+## Identifier Hydration
 
-From the repository root:
+The source TSV includes `subject_curie` and `object_curie` values. These are hydrated into:
+
+- source labels observed in the TSV
+- a normalized lookup label
+- alias labels
+- a bounded list of equivalent identifiers
+- Biolink-style type assignments when available
+
+Hydration is cached in `data/curie_hydration.json`.
+
+The current workflow uses the SRI Node Normalizer service for CURIE lookup and preserves the original TSV labels even when the normalized label differs.
+
+## Supporting Snippets
+
+Each review row includes one or more abstract snippets that support the manual assessment.
+
+These snippets are selected automatically from the abstract using:
+
+- source subject and object labels
+- hydrated alias labels
+- predicate-direction keywords
+- the manual summary and row-level rationale
+
+The displayed snippet text is kept close to the source abstract. For validation, a lightly normalized variant is used when needed so chemistry notation like `pyrazolo[3,4-d]pyrimidinone` can still be checked by the validator.
+
+## Validation
+
+This repository uses `linkml-reference-validator` to validate the supporting snippets against a local PMID cache seeded from `data/pubmed_abstracts.json`.
+
+Current validation status:
+
+- title checks: `193`
+- snippet checks: `438`
+- invalid checks: `0`
+
+Two PMIDs had no retrievable abstract during the review session, so they have no supporting snippet validation and remain `unable_to_assess`.
+
+## Build And Validate
+
+Install the locked environment:
 
 ```bash
-python3 tools/write_reviews.py
+uv sync
 ```
 
-To inspect review context for a specific PMID:
+Rebuild hydrated data, reference cache, and markdown reviews:
 
 ```bash
-python3 tools/review_context.py --pmid 12511421
+just build
 ```
 
-To inspect all rows for a specific object:
+Validate all supporting snippets:
 
 ```bash
-python3 tools/review_context.py --object "Il2-inducible t-cell kinase"
+just validate
 ```
+
+The `validate` target depends on `build`, so it always validates the current generated artifacts.
 
 ## Notes
 
 - The source TSV originated from:
   - `https://github.com/Translator-CATRAX/LLM_PMID_Checker/blob/main/data/test_data_biolink.tsv`
-- Repository contents include both the structured review data and the generated markdown outputs so the results can be inspected without rerunning the workflow.
+- This is an abstract-only assessment, not a full-text review.
+- Some rows are marked `disagree` because the dataset call is wrong.
+- Some rows are marked `disagree` because the grounding or interpretation of the subject/object is wrong even when the paper discusses a related target.
+- Some rows are marked `agree` on unsupported calls because the abstract is clearly about a different entity, mechanism, or meaning of the term.
